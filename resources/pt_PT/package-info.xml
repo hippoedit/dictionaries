@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<!DOCTYPE package-info SYSTEM "http://www.hippoedit.com/xml/package-info">
+<package-info xmlns="http://www.hippoedit.com/xml/package-info" xmlns:smf="http://www.hippoedit.com/">
+	<id>dict-pt-pt</id>
+	<name>Portugal (Portugal)</name>	
+	<version>16.7.4.1</version>
+	<description>Portuguese, Portugal (pt-PT) Dictionary</description>
+	<author>Projecto Natura, Alberto Simões, António Manuel Dias, José João de Almeida, Rui Vilela</author>
+	<email>jj@di.uminho.pt</email>
+	<homepage>http://wiki.hippoedit.com/dictionary/pt-pt</homepage>
+	<locale>pt_PT</locale>
+	<memo></memo>
+
+	<!-- Common Install actions -->
+	<install>
+		<!-- Read me -->
+		<readme type="inline">This will install Portugal (Portugal) spell checker dictionary for HippoEDIT.</readme>
+
+		<require-file name="pt_PT.aff" destination="%{dictionaries}%/pt_PT.aff" />
+		<require-file name="pt_PT.dic" destination="%{dictionaries}%/pt_PT.dic" />
+		<require-file name="README_pt_PT.txt" destination="%{dictionaries}%/README_pt_PT.txt" />
+
+	</install>
+
+	<!-- Uninstall actions -->
+	<uninstall>
+		<!-- Read me -->
+		<readme type="inline">This will uninstall Portugal (Portugal) spell checker dictionary for HippoEDIT.</readme>
+
+		<!-- Source files -->
+		<remove-file name="%{dictionaries}%/pt_PT.aff" />
+		<remove-file name="%{dictionaries}%/pt_PT.dic" />
+		<remove-file name="%{dictionaries}%/README_pt_PT.txt" />
+
+	</uninstall>
+
+</package-info>

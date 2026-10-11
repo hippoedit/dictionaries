@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<!DOCTYPE package-info SYSTEM "http://www.hippoedit.com/xml/package-info">
+<package-info xmlns="http://www.hippoedit.com/xml/package-info" xmlns:smf="http://www.hippoedit.com/">
+	<id>dict-et-ee</id>
+	<name>Estonian</name>	
+	<version>3.2.1</version>
+	<description>Eesti keele (et) speller Firefoxile</description>
+	<author>Sander Lepik</author>
+	<email>supportbox@hippoedit.com</email>
+	<homepage>http://wiki.hippoedit.com/dictionary/et-ee</homepage>
+	<locale>et_EE</locale>
+	<memo></memo>
+
+	<!-- Common Install actions -->
+	<install>
+		<!-- Read me -->
+		<readme type="inline">This will install Estonian dictionary for HippoEDIT.</readme>
+
+		<require-file name="et_EE.aff" destination="%{dictionaries}%/et_EE.aff" />
+		<require-file name="et_EE.dic" destination="%{dictionaries}%/et_EE.dic" />
+		<require-file name="README_et_EE.txt" destination="%{dictionaries}%/README_et_EE.txt" />
+
+	</install>
+
+	<!-- Uninstall actions -->
+	<uninstall>
+		<!-- Read me -->
+		<readme type="inline">This will uninstall Estonian dictionary for HippoEDIT.</readme>
+
+		<!-- Source files -->
+		<remove-file name="%{dictionaries}%/et_EE.aff" />
+		<remove-file name="%{dictionaries}%/et_EE.dic" />
+		<remove-file name="%{dictionaries}%/README_et_EE.txt" />
+
+	</uninstall>
+
+</package-info>

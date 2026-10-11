@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<!DOCTYPE package-info SYSTEM "http://www.hippoedit.com/xml/package-info">
+<package-info xmlns="http://www.hippoedit.com/xml/package-info" xmlns:smf="http://www.hippoedit.com/">
+	<id>dict-sl-sl</id>
+	<name>Slovenski</name>	
+	<version>1.0</version>
+	<description>Slovar za Ärkovanje v slovenskem jeziku</description>
+	<author></author>
+	<email>supportbox@hippoedit.com</email>
+	<homepage>http://wiki.hippoedit.com/dictionary/sl-sl</homepage>
+	<locale>sl_SL</locale>
+	<memo></memo>
+
+	<!-- Common Install actions -->
+	<install>
+		<!-- Read me -->
+		<readme type="inline">This will install Slovene dictionary for HippoEDIT.</readme>
+
+		<require-file name="sl_SL.aff" destination="%{dictionaries}%/sl_SL.aff" />
+		<require-file name="sl_SL.dic" destination="%{dictionaries}%/sl_SL.dic" />
+
+	</install>
+
+	<!-- Uninstall actions -->
+	<uninstall>
+		<!-- Read me -->
+		<readme type="inline">This will uninstall Slovene dictionary for HippoEDIT.</readme>
+
+		<!-- Source files -->
+		<remove-file name="%{dictionaries}%/sl_SL.aff" />
+		<remove-file name="%{dictionaries}%/sl_SL.dic" />
+
+	</uninstall>
+
+</package-info>

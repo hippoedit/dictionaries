@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<!DOCTYPE package-info SYSTEM "http://www.hippoedit.com/xml/package-info">
+<package-info xmlns="http://www.hippoedit.com/xml/package-info" xmlns:smf="http://www.hippoedit.com/">
+	<id>dict-es-ve</id>
+	<name>Español (Venezuela)</name>	
+	<version>1.1.18.1</version>
+	<description>Habilita la revisión ortográfica en español para Venezuela, la separación silábica y los sinónimos</description>
+	<author>Christian González</author>
+	<email>christiangda@gmail.com</email>
+	<homepage>http://wiki.hippoedit.com/dictionary/es-ve</homepage>
+	<locale>es_VE</locale>
+	<memo></memo>
+
+	<!-- Common Install actions -->
+	<install>
+		<!-- Read me -->
+		<readme type="inline">This will install Spanish (Venezuela) spell checker dictionary for HippoEDIT.</readme>
+
+		<require-file name="es_VE.aff" destination="%{dictionaries}%/es_VE.aff" />
+		<require-file name="es_VE.dic" destination="%{dictionaries}%/es_VE.dic" />
+		<require-file name="license_es_VE.txt" destination="%{dictionaries}%/license_es_VE.txt" />
+
+	</install>
+
+	<!-- Uninstall actions -->
+	<uninstall>
+		<!-- Read me -->
+		<readme type="inline">This will uninstall Spanish (Venezuela) spell checker dictionary for HippoEDIT.</readme>
+
+		<!-- Source files -->
+		<remove-file name="%{dictionaries}%/es_VE.aff" />
+		<remove-file name="%{dictionaries}%/es_VE.dic" />
+		<remove-file name="%{dictionaries}%/license_es_VE.txt" />
+
+	</uninstall>
+
+</package-info>

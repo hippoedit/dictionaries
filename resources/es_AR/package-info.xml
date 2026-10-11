@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<!DOCTYPE package-info SYSTEM "http://www.hippoedit.com/xml/package-info">
+<package-info xmlns="http://www.hippoedit.com/xml/package-info" xmlns:smf="http://www.hippoedit.com/">
+	<id>dict-es-ar</id>
+	<name>Español (Argentina)</name>	
+	<version>2.5.1</version>
+	<description>Diccionario Español Argentina</description>
+	<author>Marcelo Poli, Santiago Bosio, KNTRO, Daymex</author>
+	<email>sbosio@openoffice.org</email>
+	<homepage>http://wiki.hippoedit.com/dictionary/es-ar</homepage>
+	<locale>es_AR</locale>
+	<memo></memo>
+
+	<!-- Common Install actions -->
+	<install>
+		<!-- Read me -->
+		<readme type="inline">This will install Spanish (Argentina) spell checker dictionary for HippoEDIT.</readme>
+
+		<require-file name="es_AR.aff" destination="%{dictionaries}%/es_AR.aff" />
+		<require-file name="es_AR.dic" destination="%{dictionaries}%/es_AR.dic" />
+
+	</install>
+
+	<!-- Uninstall actions -->
+	<uninstall>
+		<!-- Read me -->
+		<readme type="inline">This will uninstall Spanish (Argentina) spell checker dictionary for HippoEDIT.</readme>
+
+		<!-- Source files -->
+		<remove-file name="%{dictionaries}%/es_AR.aff" />
+		<remove-file name="%{dictionaries}%/es_AR.dic" />
+
+	</uninstall>
+
+</package-info>

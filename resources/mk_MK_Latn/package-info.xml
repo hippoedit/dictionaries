@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<!DOCTYPE package-info SYSTEM "http://www.hippoedit.com/xml/package-info">
+<package-info xmlns="http://www.hippoedit.com/xml/package-info" xmlns:smf="http://www.hippoedit.com/">
+	<id>dict-mk-mk-latn</id>
+	<name>Macedonian (Latin)</name>	
+	<version>1.2.1</version>
+	<description>Македонски правопис (латиница)</description>
+	<author>Steve Stojanoski</author>
+	<email>supportbox@hippoedit.com</email>
+	<homepage>http://wiki.hippoedit.com/dictionary/mk-mk-latn</homepage>
+	<locale>mk_MK</locale>
+	<memo></memo>
+
+	<!-- Common Install actions -->
+	<install>
+		<!-- Read me -->
+		<readme type="inline">This will install Macedonian (Latin) dictionary for HippoEDIT.</readme>
+
+		<require-file name="mk_MK_Latn.aff" destination="%{dictionaries}%/mk_MK_Latn.aff" />
+		<require-file name="mk_MK_Latn.dic" destination="%{dictionaries}%/mk_MK_Latn.dic" />
+		<require-file name="README_mk_MK_Latn.txt" destination="%{dictionaries}%/README_mk_MK_Latn.txt" />
+
+	</install>
+
+	<!-- Uninstall actions -->
+	<uninstall>
+		<!-- Read me -->
+		<readme type="inline">This will uninstall Macedonian (Latin) dictionary for HippoEDIT.</readme>
+
+		<!-- Source files -->
+		<remove-file name="%{dictionaries}%/mk_MK_Latn.aff" />
+		<remove-file name="%{dictionaries}%/mk_MK_Latn.dic" />
+		<remove-file name="%{dictionaries}%/README_mk_MK_Latn.txt" />
+
+	</uninstall>
+
+</package-info>

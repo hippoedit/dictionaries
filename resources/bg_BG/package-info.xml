@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<!DOCTYPE package-info SYSTEM "http://www.hippoedit.com/xml/package-info">
+<package-info xmlns="http://www.hippoedit.com/xml/package-info" xmlns:smf="http://www.hippoedit.com/">
+	<id>dict-bg-bg</id>
+	<name>Bulgarian</name>	
+	<version>4.3.1</version>
+	<description>Речник за проверка на правописа на български език</description>
+	<author>Radostin Radnev</author>
+	<email>radnev@gmail.com</email>
+	<homepage>http://wiki.hippoedit.com/dictionary/bg-bg</homepage>
+	<locale>bg_BG</locale>
+	<memo></memo>
+
+	<!-- Common Install actions -->
+	<install>
+		<!-- Read me -->
+		<readme type="inline">This will install Bulgarian spell-checking dictionary for HippoEDIT.</readme>
+
+		<require-file name="bg_BG.aff" destination="%{dictionaries}%/bg_BG.aff" />
+		<require-file name="bg_BG.dic" destination="%{dictionaries}%/bg_BG.dic" />
+		<require-file name="README_bg_BG.txt" destination="%{dictionaries}%/README_bg_BG.txt" />
+		<require-file name="copyright_bg_BG.txt" destination="%{dictionaries}%/copyright_bg_BG.txt" />
+		<require-file name="license_bg_BG.txt" destination="%{dictionaries}%/license_bg_BG.txt" />
+	</install>
+
+	<!-- Uninstall actions -->
+	<uninstall>
+		<!-- Read me -->
+		<readme type="inline">This will uninstall Bulgarian spell-checking dictionary for HippoEDIT.</readme>
+
+		<!-- Source files -->
+		<remove-file name="%{dictionaries}%/bg_BG.aff" />
+		<remove-file name="%{dictionaries}%/bg_BG.dic" />
+		<remove-file name="%{dictionaries}%/README_bg_BG.txt" />
+		<remove-file name="%{dictionaries}%/copyright_bg_BG.txt" />
+		<remove-file name="%{dictionaries}%/license_bg_BG.txt" />
+
+	</uninstall>
+
+</package-info>

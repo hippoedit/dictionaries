@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<!DOCTYPE package-info SYSTEM "http://www.hippoedit.com/xml/package-info">
+<package-info xmlns="http://www.hippoedit.com/xml/package-info" xmlns:smf="http://www.hippoedit.com/">
+	<id>dict-hr-hr</id>
+	<name>Hrvatski</name>	
+	<version>1.1</version>
+	<description>Croatian Dictionary (Hrvatski Rjecnik)</description>
+	<author>Antun Koncic, Denis Lackovic, Krunoslav Sebetic</author>
+	<email>supportbox@hippoedit.com</email>
+	<homepage>http://wiki.hippoedit.com/dictionary/hr-hr</homepage>
+	<locale>hr_HR</locale>
+	<memo></memo>
+
+	<!-- Common Install actions -->
+	<install>
+		<!-- Read me -->
+		<readme type="inline">This will install Croatian dictionary for HippoEDIT.</readme>
+
+		<require-file name="hr_HR.aff" destination="%{dictionaries}%/hr_HR.aff" />
+		<require-file name="hr_HR.dic" destination="%{dictionaries}%/hr_HR.dic" />
+
+	</install>
+
+	<!-- Uninstall actions -->
+	<uninstall>
+		<!-- Read me -->
+		<readme type="inline">This will uninstall Croatian dictionary for HippoEDIT.</readme>
+
+		<!-- Source files -->
+		<remove-file name="%{dictionaries}%/hr_HR.aff" />
+		<remove-file name="%{dictionaries}%/hr_HR.dic" />
+
+	</uninstall>
+
+</package-info>

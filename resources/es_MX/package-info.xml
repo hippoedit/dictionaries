@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<!DOCTYPE package-info SYSTEM "http://www.hippoedit.com/xml/package-info">
+<package-info xmlns="http://www.hippoedit.com/xml/package-info" xmlns:smf="http://www.hippoedit.com/">
+	<id>dict-es-mx</id>
+	<name>Español (México)</name>	
+	<version>1.1.3.1</version>
+	<description>Diccionario de Español/México</description>
+	<email>supportbox@hippoedit.com</email>
+	<homepage>http://wiki.hippoedit.com/dictionary/es-mx</homepage>
+	<locale>es_MX</locale>
+	<memo></memo>
+
+	<!-- Common Install actions -->
+	<install>
+		<!-- Read me -->
+		<readme type="inline">This will install Spanish (Mexico) spell checker dictionary for HippoEDIT.</readme>
+
+		<require-file name="es_MX.aff" destination="%{dictionaries}%/es_MX.aff" />
+		<require-file name="es_MX.dic" destination="%{dictionaries}%/es_MX.dic" />
+
+	</install>
+
+	<!-- Uninstall actions -->
+	<uninstall>
+		<!-- Read me -->
+		<readme type="inline">This will uninstall Spanish (Mexico) spell checker dictionary for HippoEDIT.</readme>
+
+		<!-- Source files -->
+		<remove-file name="%{dictionaries}%/es_MX.aff" />
+		<remove-file name="%{dictionaries}%/es_MX.dic" />
+
+	</uninstall>
+
+</package-info>

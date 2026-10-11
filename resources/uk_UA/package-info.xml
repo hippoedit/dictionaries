@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<!DOCTYPE package-info SYSTEM "http://www.hippoedit.com/xml/package-info">
+<package-info xmlns="http://www.hippoedit.com/xml/package-info" xmlns:smf="http://www.hippoedit.com/">
+	<id>dict-uk-ua</id>
+	<name>Ukrainian</name>	
+	<version>2.0.0</version>
+	<description>Український орфографічний словник</description>
+	<author>Andriy Rysin, Yaroslav Krytsun</author>
+	<email>arysin@yahoo.com</email>
+	<homepage>http://wiki.hippoedit.com/dictionary/uk-ua</homepage>
+	<locale>uk_UA</locale>
+	<memo></memo>
+
+	<!-- Common Install actions -->
+	<install>
+		<!-- Read me -->
+		<readme type="inline">This will install Ukrainian dictionary for HippoEDIT.</readme>
+
+		<require-file name="uk_UA.aff" destination="%{dictionaries}%/uk_UA.aff" />
+		<require-file name="uk_UA.dic" destination="%{dictionaries}%/uk_UA.dic" />
+		<require-file name="README_uk_UA.txt" destination="%{dictionaries}%/README_uk_UA.txt" />
+
+	</install>
+
+	<!-- Uninstall actions -->
+	<uninstall>
+		<!-- Read me -->
+		<readme type="inline">This will uninstall Ukrainian dictionary for HippoEDIT.</readme>
+
+		<!-- Source files -->
+		<remove-file name="%{dictionaries}%/uk_UA.aff" />
+		<remove-file name="%{dictionaries}%/uk_UA.dic" />
+		<remove-file name="%{dictionaries}%/README_uk_UA.txt" />
+
+	</uninstall>
+
+</package-info>

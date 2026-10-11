@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<!DOCTYPE package-info SYSTEM "http://www.hippoedit.com/xml/package-info">
+<package-info xmlns="http://www.hippoedit.com/xml/package-info" xmlns:smf="http://www.hippoedit.com/">
+	<id>dict-nb-no</id>
+	<name>Norwegian</name>	
+	<version>2.2.0</version>
+	<description>Norsk bokmål ordliste</description>
+	<author></author>
+	<email>supportbox@hippoedit.com</email>
+	<homepage>http://wiki.hippoedit.com/dictionary/nb-no</homepage>
+	<locale>nb_NO</locale>
+	<memo></memo>
+
+	<!-- Common Install actions -->
+	<install>
+		<!-- Read me -->
+		<readme type="inline">This will install Norwegian dictionary for HippoEDIT.</readme>
+
+		<require-file name="nb_NO.aff" destination="%{dictionaries}%/nb_NO.aff" />
+		<require-file name="nb_NO.dic" destination="%{dictionaries}%/nb_NO.dic" />
+		<require-file name="README_nb_NO.txt" destination="%{dictionaries}%/README_nb_NO.txt" />
+
+	</install>
+
+	<!-- Uninstall actions -->
+	<uninstall>
+		<!-- Read me -->
+		<readme type="inline">This will uninstall Norwegian dictionary for HippoEDIT.</readme>
+
+		<!-- Source files -->
+		<remove-file name="%{dictionaries}%/nb_NO.aff" />
+		<remove-file name="%{dictionaries}%/nb_NO.dic" />
+		<remove-file name="%{dictionaries}%/README_nb_NO.txt" />
+
+	</uninstall>
+
+</package-info>

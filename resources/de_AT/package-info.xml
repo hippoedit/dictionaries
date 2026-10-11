@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<!DOCTYPE package-info SYSTEM "http://www.hippoedit.com/xml/package-info">
+<package-info xmlns="http://www.hippoedit.com/xml/package-info" xmlns:smf="http://www.hippoedit.com/">
+	<id>dict-de-at</id>
+	<name>Deutsch (Austria)</name>	
+	<version>1.0.0.0</version>
+	<description>German dictionary for Austria</description>
+	<author>Franz Michael Baumann</author>
+	<email>frami.baumann@web.de</email>
+	<homepage>http://wiki.hippoedit.com/dictionary/de-at</homepage>
+	<locale>de_AT</locale>
+	<memo></memo>
+
+	<!-- Common Install actions -->
+	<install>
+		<!-- Read me -->
+		<readme type="inline">This will install German (Austria) dictionary for HippoEDIT.</readme>
+
+		<require-file name="de_AT_frami.aff" destination="%{dictionaries}%/de_AT_frami.aff" />
+		<require-file name="de_AT_frami.dic" destination="%{dictionaries}%/de_AT_frami.dic" />
+		<require-file name="README_de_AT_frami.txt" destination="%{dictionaries}%/README_de_AT_frami.txt" />
+
+	</install>
+
+	<!-- Uninstall actions -->
+	<uninstall>
+		<!-- Read me -->
+		<readme type="inline">This will uninstall German (Austria) dictionary for HippoEDIT.</readme>
+
+		<!-- Source files -->
+		<remove-file name="%{dictionaries}%/de_AT_frami.aff" />
+		<remove-file name="%{dictionaries}%/de_AT_frami.dic" />
+		<remove-file name="%{dictionaries}%/README_de_AT_frami.txt" />
+
+	</uninstall>
+
+</package-info>

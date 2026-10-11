@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<!DOCTYPE package-info SYSTEM "http://www.hippoedit.com/xml/package-info">
+<package-info xmlns="http://www.hippoedit.com/xml/package-info" xmlns:smf="http://www.hippoedit.com/">
+	<id>dict-ru-ru-io</id>
+	<name>Русский (Ё), Лебедев</name>	
+	<version>0.4.5</version>
+	<description>Russian dictionary</description>
+	<author>Alexander Lebedev</author>
+	<email>supportbox@hippoedit.com</email>
+	<homepage>http://wiki.hippoedit.com/dictionary/ru-ru-io</homepage>
+	<locale>ru_RU</locale>
+	<memo></memo>
+
+	<!-- Common Install actions -->
+	<install>
+		<!-- Read me -->
+		<readme type="inline">This will install Russian dictionary for HippoEDIT.</readme>
+
+		<require-file name="ru_RU_io.aff" destination="%{dictionaries}%/ru_RU_io.aff" />
+		<require-file name="ru_RU_io.dic" destination="%{dictionaries}%/ru_RU_io.dic" />
+
+	</install>
+
+	<!-- Uninstall actions -->
+	<uninstall>
+		<!-- Read me -->
+		<readme type="inline">This will uninstall Russian dictionary for HippoEDIT.</readme>
+
+		<!-- Source files -->
+		<remove-file name="%{dictionaries}%/ru_RU_io.aff" />
+		<remove-file name="%{dictionaries}%/ru_RU_io.dic" />
+
+	</uninstall>
+
+</package-info>

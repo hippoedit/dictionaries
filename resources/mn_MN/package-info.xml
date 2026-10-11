@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<!DOCTYPE package-info SYSTEM "http://www.hippoedit.com/xml/package-info">
+<package-info xmlns="http://www.hippoedit.com/xml/package-info" xmlns:smf="http://www.hippoedit.com/">
+	<id>dict-mn-mn</id>
+	<name>Mongolian</name>	
+	<version>1.2.1</version>
+	<description>Mongolian spell checking dictionary</description>
+	<author>Batumongke</author>
+	<email>Badral@openmn.org</email>
+	<homepage>http://wiki.hippoedit.com/dictionary/mn-mn</homepage>
+	<locale>mn_MN</locale>
+	<memo></memo>
+
+	<!-- Common Install actions -->
+	<install>
+		<!-- Read me -->
+		<readme type="inline">This will install Mongolian dictionary for HippoEDIT.</readme>
+
+		<require-file name="mn_MN.aff" destination="%{dictionaries}%/mn_MN.aff" />
+		<require-file name="mn_MN.dic" destination="%{dictionaries}%/mn_MN.dic" />
+		<require-file name="README_mn_MN.txt" destination="%{dictionaries}%/README_mn_MN.txt" />
+
+	</install>
+
+	<!-- Uninstall actions -->
+	<uninstall>
+		<!-- Read me -->
+		<readme type="inline">This will uninstall Mongolian dictionary for HippoEDIT.</readme>
+
+		<!-- Source files -->
+		<remove-file name="%{dictionaries}%/mn_MN.aff" />
+		<remove-file name="%{dictionaries}%/mn_MN.dic" />
+		<remove-file name="%{dictionaries}%/README_mn_MN.txt" />
+
+	</uninstall>
+
+</package-info>

@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<!DOCTYPE package-info SYSTEM "http://www.hippoedit.com/xml/package-info">
+<package-info xmlns="http://www.hippoedit.com/xml/package-info" xmlns:smf="http://www.hippoedit.com/">
+	<id>dict-tr-tr</id>
+	<name>Türk</name>	
+	<version>3.5</version>
+	<description>Türkçe Yazım Denetimi</description>
+	<author>Ahmet A. Akın, Mehmet D. Akın</author>
+	<email>supportbox@hippoedit.com</email>
+	<homepage>http://wiki.hippoedit.com/dictionary/tr-tr</homepage>
+	<locale>tr_TR</locale>
+	<memo></memo>
+
+	<!-- Common Install actions -->
+	<install>
+		<!-- Read me -->
+		<readme type="inline">This will install Turkish dictionary for HippoEDIT.</readme>
+
+		<require-file name="tr_TR.aff" destination="%{dictionaries}%/tr_TR.aff" />
+		<require-file name="tr_TR.dic" destination="%{dictionaries}%/tr_TR.dic" />
+
+	</install>
+
+	<!-- Uninstall actions -->
+	<uninstall>
+		<!-- Read me -->
+		<readme type="inline">This will uninstall Turkish dictionary for HippoEDIT.</readme>
+
+		<!-- Source files -->
+		<remove-file name="%{dictionaries}%/tr_TR.aff" />
+		<remove-file name="%{dictionaries}%/tr_TR.dic" />
+
+	</uninstall>
+
+</package-info>

@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<!DOCTYPE package-info SYSTEM "http://www.hippoedit.com/xml/package-info">
+<package-info xmlns="http://www.hippoedit.com/xml/package-info" xmlns:smf="http://www.hippoedit.com/">
+	<id>dict-sh-yu-cyrl</id>
+	<name>Sprski (Cyrilic)</name>	
+	<version>0.4.1</version>
+	<description>Sprski ćirlični rečnik</description>
+	<author>Dejan Savković</author>
+	<email>supportbox@hippoedit.com</email>
+	<homepage>http://wiki.hippoedit.com/dictionary/sh-yu-cyrl</homepage>
+	<locale>sh_YU_Cyrl</locale>
+	<memo></memo>
+
+	<!-- Common Install actions -->
+	<install>
+		<!-- Read me -->
+		<readme type="inline">This will install Serbian (Cyrilic) dictionary for HippoEDIT.</readme>
+
+		<require-file name="sh_YU_Cyrl.aff" destination="%{dictionaries}%/sh_YU_Cyrl.aff" />
+		<require-file name="sh_YU_Cyrl.dic" destination="%{dictionaries}%/sh_YU_Cyrl.dic" />
+		<require-file name="README_sh_YU_Cyrl.txt" destination="%{dictionaries}%/README_sh_YU_Cyrl.txt" />
+
+	</install>
+
+	<!-- Uninstall actions -->
+	<uninstall>
+		<!-- Read me -->
+		<readme type="inline">This will uninstall Serbian (Cyrilic) dictionary for HippoEDIT.</readme>
+
+		<!-- Source files -->
+		<remove-file name="%{dictionaries}%/sh_YU_Cyrl.aff" />
+		<remove-file name="%{dictionaries}%/sh_YU_Cyrl.dic" />
+		<remove-file name="%{dictionaries}%/README_sh_YU_Cyrl.txt" />
+
+	</uninstall>
+
+</package-info>

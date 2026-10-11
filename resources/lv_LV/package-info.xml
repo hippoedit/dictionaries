@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<!DOCTYPE package-info SYSTEM "http://www.hippoedit.com/xml/package-info">
+<package-info xmlns="http://www.hippoedit.com/xml/package-info" xmlns:smf="http://www.hippoedit.com/">
+	<id>dict-lv-lv</id>
+	<name>Latvian</name>	
+	<version>1.2.0</version>
+	<description>Latviešu valodas pareizrakstības vārdnīca</description>
+	<author>Janis Eisaks</author>
+	<email>supportbox@hippoedit.com</email>
+	<homepage>http://wiki.hippoedit.com/dictionary/lv-lv</homepage>
+	<locale>lv_LV</locale>
+	<memo></memo>
+
+	<!-- Common Install actions -->
+	<install>
+		<!-- Read me -->
+		<readme type="inline">This will install Latvian dictionary for HippoEDIT.</readme>
+
+		<require-file name="lv_LV.aff" destination="%{dictionaries}%/lv_LV.aff" />
+		<require-file name="lv_LV.dic" destination="%{dictionaries}%/lv_LV.dic" />
+
+	</install>
+
+	<!-- Uninstall actions -->
+	<uninstall>
+		<!-- Read me -->
+		<readme type="inline">This will uninstall Latvian dictionary for HippoEDIT.</readme>
+
+		<!-- Source files -->
+		<remove-file name="%{dictionaries}%/lv_LV.aff" />
+		<remove-file name="%{dictionaries}%/lv_LV.dic" />
+
+	</uninstall>
+
+</package-info>

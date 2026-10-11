@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<!DOCTYPE package-info SYSTEM "http://www.hippoedit.com/xml/package-info">
+<package-info xmlns="http://www.hippoedit.com/xml/package-info" xmlns:smf="http://www.hippoedit.com/">
+	<id>dict-en-us</id>
+	<name>English (United States)</name>	
+	<version>8.1</version>
+	<description>English (United States) dictionary</description>
+	<author>Giuliano Masseroni, Kevin Atkinson, Geoff Kuenning</author>
+	<email>supportbox@hippoedit.com</email>
+	<homepage>http://wiki.hippoedit.com/dictionary/english-us</homepage>
+	<locale>en_US</locale>
+	<memo></memo>
+
+	<!-- Common Install actions -->
+	<install>
+		<!-- Read me -->
+		<readme type="inline">This will install English (United States) dictionary for HippoEDIT.</readme>
+
+		<require-file name="en_US.aff" destination="%{dictionaries}%/en_US.aff" />
+		<require-file name="en_US.dic" destination="%{dictionaries}%/en_US.dic" />
+		<require-file name="README_en_US.txt" destination="%{dictionaries}%/README_en_US.txt" />
+
+	</install>
+
+	<!-- Uninstall actions -->
+	<uninstall>
+		<!-- Read me -->
+		<readme type="inline">This will uninstall English (United States) dictionary for HippoEDIT.</readme>
+
+		<!-- Source files -->
+		<remove-file name="%{dictionaries}%/en_US.aff" />
+		<remove-file name="%{dictionaries}%/en_US.dic" />
+		<remove-file name="%{dictionaries}%/README_en_US.txt" />
+
+	</uninstall>
+
+</package-info>

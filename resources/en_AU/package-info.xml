@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<!DOCTYPE package-info SYSTEM "http://www.hippoedit.com/xml/package-info">
+<package-info xmlns="http://www.hippoedit.com/xml/package-info" xmlns:smf="http://www.hippoedit.com/">
+	<id>dict-en-au</id>
+	<name>English (Australian)</name>	
+	<version>1.0.0.0</version>
+	<description>English (Australian) dictionary</description>
+	<author>David Wilson</author>
+	<email>dnwilson@bigpond.com</email>
+	<homepage>http://wiki.hippoedit.com/dictionary/english-au</homepage>
+	<locale>en_AU</locale>
+	<memo></memo>
+
+	<!-- Common Install actions -->
+	<install>
+		<!-- Read me -->
+		<readme type="inline">This will install English (Australian) dictionary for HippoEDIT.</readme>
+
+		<require-file name="en_AU.aff" destination="%{dictionaries}%/en_AU.aff" />
+		<require-file name="en_AU.dic" destination="%{dictionaries}%/en_AU.dic" />
+		<require-file name="README_en_AU.txt" destination="%{dictionaries}%/README_en_AU.txt" />
+
+	</install>
+
+	<!-- Uninstall actions -->
+	<uninstall>
+		<!-- Read me -->
+		<readme type="inline">This will uninstall English (Australian) dictionary for HippoEDIT.</readme>
+
+		<!-- Source files -->
+		<remove-file name="%{dictionaries}%/en_AU.aff" />
+		<remove-file name="%{dictionaries}%/en_AU.dic" />
+		<remove-file name="%{dictionaries}%/README_en_AU.txt" />
+
+	</uninstall>
+
+</package-info>

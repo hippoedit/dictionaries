@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<!DOCTYPE package-info SYSTEM "http://www.hippoedit.com/xml/package-info">
+<package-info xmlns="http://www.hippoedit.com/xml/package-info" xmlns:smf="http://www.hippoedit.com/">
+	<id>dict-fr-fr</id>
+	<name>Français</name>	
+	<version>5.6.3</version>
+	<description>Dictionnaire orthographique de la langue française</description>
+	<author>Olivier R., Sylvain P., Jean-Luc T., Laurent Dubois, Dominique Pellé, Pierre Poisson, Pierre-Yves, Renouvo</author>
+	<email>dicollecte@free.fr</email>
+	<homepage>http://wiki.hippoedit.com/dictionary/fr-fr</homepage>
+	<locale>fr_FR</locale>
+	<memo></memo>
+
+	<!-- Common Install actions -->
+	<install>
+		<!-- Read me -->
+		<readme type="inline">This will install French dictionary for HippoEDIT.</readme>
+
+		<require-file name="fr_FR.aff" destination="%{dictionaries}%/fr_FR.aff" />
+		<require-file name="fr_FR.dic" destination="%{dictionaries}%/fr_FR.dic" />
+		<require-file name="README_fr_FR.txt" destination="%{dictionaries}%/README_fr_FR.txt" />
+
+	</install>
+
+	<!-- Uninstall actions -->
+	<uninstall>
+		<!-- Read me -->
+		<readme type="inline">This will uninstall French dictionary for HippoEDIT.</readme>
+
+		<!-- Source files -->
+		<remove-file name="%{dictionaries}%/fr_FR.aff" />
+		<remove-file name="%{dictionaries}%/fr_FR.dic" />
+		<remove-file name="%{dictionaries}%/README_fr_FR.txt" />
+
+	</uninstall>
+
+</package-info>

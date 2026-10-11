@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<!DOCTYPE package-info SYSTEM "http://www.hippoedit.com/xml/package-info">
+<package-info xmlns="http://www.hippoedit.com/xml/package-info" xmlns:smf="http://www.hippoedit.com/">
+	<id>dict-ko-kr</id>
+	<name>Korean</name>	
+	<version>0.5.6.2.1</version>
+	<description>Korean (ko-KR) Spellchecking Dictionary</description>
+	<author>Jihui Choi, Changwoo Ryu</author>
+	<email>supportbox@hippoedit.com</email>
+	<homepage>http://wiki.hippoedit.com/dictionary/ko-kr</homepage>
+	<locale>ko_KR</locale>
+	<memo></memo>
+
+	<!-- Common Install actions -->
+	<install>
+		<!-- Read me -->
+		<readme type="inline">This will install Korean dictionary for HippoEDIT.</readme>
+
+		<require-file name="ko_KR.aff" destination="%{dictionaries}%/ko_KR.aff" />
+		<require-file name="ko_KR.dic" destination="%{dictionaries}%/ko_KR.dic" />
+		<require-file name="README_ko_KR.txt" destination="%{dictionaries}%/README_ko_KR.txt" />
+
+	</install>
+
+	<!-- Uninstall actions -->
+	<uninstall>
+		<!-- Read me -->
+		<readme type="inline">This will uninstall Korean dictionary for HippoEDIT.</readme>
+
+		<!-- Source files -->
+		<remove-file name="%{dictionaries}%/ko_KR.aff" />
+		<remove-file name="%{dictionaries}%/ko_KR.dic" />
+		<remove-file name="%{dictionaries}%/README_ko_KR.txt" />
+
+	</uninstall>
+
+</package-info>

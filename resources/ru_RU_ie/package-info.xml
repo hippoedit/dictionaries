@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<!DOCTYPE package-info SYSTEM "http://www.hippoedit.com/xml/package-info">
+<package-info xmlns="http://www.hippoedit.com/xml/package-info" xmlns:smf="http://www.hippoedit.com/">
+	<id>dict-ru-ru-ie</id>
+	<name>Русский (Е), Роганов</name>	
+	<version>1.0.0.0</version>
+	<description>Russian dictionary, IE</description>
+	<author>Vladimir Roganov, Konstantin Knizhnik, Aleksej Novodvorskij</author>
+	<email>aen@altlinux.ru</email>
+	<homepage>http://wiki.hippoedit.com/dictionary/ru-ru-ie</homepage>
+	<locale>ru_RU</locale>
+	<memo></memo>
+
+	<!-- Common Install actions -->
+	<install>
+		<!-- Read me -->
+		<readme type="inline">This will install Russian dictionary for HippoEDIT.</readme>
+
+		<require-file name="ru_RU_ie.aff" destination="%{dictionaries}%/ru_RU_ie.aff" />
+		<require-file name="ru_RU_ie.dic" destination="%{dictionaries}%/ru_RU_ie.dic" />
+		<require-file name="README_ru_RU_ie.txt" destination="%{dictionaries}%/README_ru_RU_ie.txt" />
+
+	</install>
+
+	<!-- Uninstall actions -->
+	<uninstall>
+		<!-- Read me -->
+		<readme type="inline">This will uninstall Russian dictionary for HippoEDIT.</readme>
+
+		<!-- Source files -->
+		<remove-file name="%{dictionaries}%/ru_RU_ie.aff" />
+		<remove-file name="%{dictionaries}%/ru_RU_ie.dic" />
+		<remove-file name="%{dictionaries}%/README_ru_RU_ie.txt" />
+
+	</uninstall>
+
+</package-info>

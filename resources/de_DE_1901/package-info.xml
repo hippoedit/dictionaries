@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<!DOCTYPE package-info SYSTEM "http://www.hippoedit.com/xml/package-info">
+<package-info xmlns="http://www.hippoedit.com/xml/package-info" xmlns:smf="http://www.hippoedit.com/">
+	<id>dict-de-de-1901</id>
+	<name>Deutsch (Deutschland), 1901</name>	
+	<version>3.0.1</version>
+	<description>German Dictionary according to the classical spelling standards for spell-checking in Firefox and Thunderbird</description>
+	<author>Tobias Kuban</author>
+	<email>alterechtschreibung@googlemail.com</email>
+	<homepage>http://wiki.hippoedit.com/dictionary/de-de-1901</homepage>
+	<locale>de_DE</locale>
+	<memo></memo>
+
+	<!-- Common Install actions -->
+	<install>
+		<!-- Read me -->
+		<readme type="inline">This will install German (classical) dictionary for HippoEDIT.</readme>
+
+		<require-file name="de_DE_1901.aff" destination="%{dictionaries}%/de_DE_1901.aff" />
+		<require-file name="de_DE_1901.dic" destination="%{dictionaries}%/de_DE_1901.dic" />
+		<require-file name="README_de_DE_1901.txt" destination="%{dictionaries}%/README_de_DE_1901.txt" />
+
+	</install>
+
+	<!-- Uninstall actions -->
+	<uninstall>
+		<!-- Read me -->
+		<readme type="inline">This will uninstall German (classical) dictionary for HippoEDIT.</readme>
+
+		<!-- Source files -->
+		<remove-file name="%{dictionaries}%/de_DE_1901.aff" />
+		<remove-file name="%{dictionaries}%/de_DE_1901.dic" />
+		<remove-file name="%{dictionaries}%/README_de_DE_1901.txt" />
+
+	</uninstall>
+
+</package-info>

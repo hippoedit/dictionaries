@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<!DOCTYPE package-info SYSTEM "http://www.hippoedit.com/xml/package-info">
+<package-info xmlns="http://www.hippoedit.com/xml/package-info" xmlns:smf="http://www.hippoedit.com/">
+	<id>dict-it-it</id>
+	<name>Italian</name>	
+	<version>4.0.0</version>
+	<description>Italian dictionary based on version 4.0.0 (2014-09-27) of the Italian dictionary created by project PLIO</description>
+	<author>Francesco Lodolo</author>
+	<email>toolkit@mozilla.org</email>
+	<homepage>http://wiki.hippoedit.com/dictionary/it-it</homepage>
+	<locale>it_IT</locale>
+	<memo></memo>
+
+	<!-- Common Install actions -->
+	<install>
+		<!-- Read me -->
+		<readme type="inline">This will install Italian spell checker dictionary for HippoEDIT.</readme>
+
+		<require-file name="it_IT.aff" destination="%{dictionaries}%/it_IT.aff" />
+		<require-file name="it_IT.dic" destination="%{dictionaries}%/it_IT.dic" />
+		<require-file name="README_it_IT.txt" destination="%{dictionaries}%/README_it_IT.txt" />
+
+	</install>
+
+	<!-- Uninstall actions -->
+	<uninstall>
+		<!-- Read me -->
+		<readme type="inline">This will uninstall Italian spell checker dictionary for HippoEDIT.</readme>
+
+		<!-- Source files -->
+		<remove-file name="%{dictionaries}%/it_IT.aff" />
+		<remove-file name="%{dictionaries}%/it_IT.dic" />
+		<remove-file name="%{dictionaries}%/README_it_IT.txt" />
+
+	</uninstall>
+
+</package-info>

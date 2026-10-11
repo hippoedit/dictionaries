@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<!DOCTYPE package-info SYSTEM "http://www.hippoedit.com/xml/package-info">
+<package-info xmlns="http://www.hippoedit.com/xml/package-info" xmlns:smf="http://www.hippoedit.com/">
+	<id>dict-ga-ie</id>
+	<name>Irish</name>	
+	<version>4.8</version>
+	<description>Litreoir GaelSpell</description>
+	<author>Kevin Scannell</author>
+	<email>supportbox@hippoedit.com</email>
+	<homepage>http://wiki.hippoedit.com/dictionary/ga-ie</homepage>
+	<locale>ga_IE</locale>
+	<memo></memo>
+
+	<!-- Common Install actions -->
+	<install>
+		<!-- Read me -->
+		<readme type="inline">This will install Irish dictionary for HippoEDIT.</readme>
+
+		<require-file name="ga_IE.aff" destination="%{dictionaries}%/ga_IE.aff" />
+		<require-file name="ga_IE.dic" destination="%{dictionaries}%/ga_IE.dic" />
+		<require-file name="README_ga_IE.txt" destination="%{dictionaries}%/README_ga_IE.txt" />
+
+	</install>
+
+	<!-- Uninstall actions -->
+	<uninstall>
+		<!-- Read me -->
+		<readme type="inline">This will uninstall Irish dictionary for HippoEDIT.</readme>
+
+		<!-- Source files -->
+		<remove-file name="%{dictionaries}%/ga_IE.aff" />
+		<remove-file name="%{dictionaries}%/ga_IE.dic" />
+		<remove-file name="%{dictionaries}%/README_ga_IE.txt" />
+
+	</uninstall>
+
+</package-info>

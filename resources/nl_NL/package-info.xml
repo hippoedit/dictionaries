@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<!DOCTYPE package-info SYSTEM "http://www.hippoedit.com/xml/package-info">
+<package-info xmlns="http://www.hippoedit.com/xml/package-info" xmlns:smf="http://www.hippoedit.com/">
+	<id>dict-nl-nl</id>
+	<name>Dutch (Netherlands)</name>	
+	<version>3.1.2</version>
+	<description>Woordenboek Nederlands</description>
+	<author>Wim Benes, OpenTaal</author>
+	<email>supportbox@hippoedit.com</email>
+	<homepage>http://wiki.hippoedit.com/dictionary/nl-nl</homepage>
+	<locale>nl_NL</locale>
+	<memo></memo>
+
+	<!-- Common Install actions -->
+	<install>
+		<!-- Read me -->
+		<readme type="inline">This will install Dutch (Netherlands) spell checker dictionary for HippoEDIT.</readme>
+
+		<require-file name="nl_NL.aff" destination="%{dictionaries}%/nl_NL.aff" />
+		<require-file name="nl_NL.dic" destination="%{dictionaries}%/nl_NL.dic" />
+		<require-file name="README_nl_NL.txt" destination="%{dictionaries}%/README_nl_NL.txt" />
+
+	</install>
+
+	<!-- Uninstall actions -->
+	<uninstall>
+		<!-- Read me -->
+		<readme type="inline">This will uninstall Dutch (Netherlands) spell checker dictionary for HippoEDIT.</readme>
+
+		<!-- Source files -->
+		<remove-file name="%{dictionaries}%/nl_NL.aff" />
+		<remove-file name="%{dictionaries}%/nl_NL.dic" />
+		<remove-file name="%{dictionaries}%/README_nl_NL.txt" />
+
+	</uninstall>
+
+</package-info>

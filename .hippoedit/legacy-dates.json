@@ -1,0 +1,826 @@
+{
+  "files": {
+    "ar_AR/ar_AR.aff": {
+      "last_commit_epoch": 1788967862,
+      "sha256": "e76aa9c94b8285ca72b37c5d6c513484d2b9e9d393d2c602b5018d612e37e1ee"
+    },
+    "ar_AR/ar_AR.dic": {
+      "last_commit_epoch": 1788967862,
+      "sha256": "7aeb0346703918e1702f18e0278021c4d1fe799acea84d676c29eb0a869bad51"
+    },
+    "ar_AR/copyright_ar_AR.txt": {
+      "last_commit_epoch": 1788967862,
+      "sha256": "240b9af58b71302ac45ea8de824390e77bbec2073be33cd1c59f259e72d485e1"
+    },
+    "ar_AR/license_ar_AR.txt": {
+      "last_commit_epoch": 1788967862,
+      "sha256": "204d8eff92f95aac4df6c8122bc1505f468f3a901e5a4cc08940e0ede1938994"
+    },
+    "ar_AR/package-info.xml": {
+      "last_commit_epoch": 1788967862,
+      "sha256": "e160fb8b4b7144a2302decd95701d48381aa00f556dbfb97329f8d514cfd1d72"
+    },
+    "be_BE/README_be_BE.txt": {
+      "last_commit_epoch": 1788967862,
+      "sha256": "e1195ce9a1b2431a0bd4fd395817e95a6769ed8212606ad30b6d52c76543b0f1"
+    },
+    "be_BE/be_BE.aff": {
+      "last_commit_epoch": 1788967862,
+      "sha256": "7c2f272ff2b3fdafa3bda533ae81e5a14c928d68f7e5a8b001b0575b11543d92"
+    },
+    "be_BE/be_BE.dic": {
+      "last_commit_epoch": 1788967862,
+      "sha256": "efc1deb97da9fd5451ec83093bc09e24ad80d91811b3a4ed77130f173e86c3ef"
+    },
+    "be_BE/package-info.xml": {
+      "last_commit_epoch": 1788967862,
+      "sha256": "25a526c761a8b1938adb06ae2c8b160a0d9686927d26d47db24280dfadd1ed8e"
+    },
+    "bg_BG/README_bg_BG.txt": {
+      "last_commit_epoch": 1788967862,
+      "sha256": "489afbc4a52209198842884aced0e9ce0604d6a1d7e2d9f23281b2cf80ccf94c"
+    },
+    "bg_BG/bg_BG.aff": {
+      "last_commit_epoch": 1788967862,
+      "sha256": "fd55a1949266f74a5a246bb3f7d3bef65cd34c9751c57811132a8c8ea668e2b7"
+    },
+    "bg_BG/bg_BG.dic": {
+      "last_commit_epoch": 1788967862,
+      "sha256": "c1d403ecf6588c3e23f9b57db2f905fda035e17c115d05736e1ce02ea17dacee"
+    },
+    "bg_BG/copyright_bg_BG.txt": {
+      "last_commit_epoch": 1788967862,
+      "sha256": "e173d50fbb028916f25c1a7b02d90a36ca8207b322072cf52c82bb98ec3bab3e"
+    },
+    "bg_BG/license_bg_BG.txt": {
+      "last_commit_epoch": 1788967862,
+      "sha256": "fa01277004aff314888151ea523bdf390992892e13523984f221695d48c7455b"
+    },
+    "bg_BG/package-info.xml": {
+      "last_commit_epoch": 1788967862,
+      "sha256": "3408f5d36089c8ecce11243c2a36e1a1893e07f712f319db8214ec3a5e3e1a4f"
+    },
+    "cs_CZ/README_cs_CZ.txt": {
+      "last_commit_epoch": 1788967862,
+      "sha256": "4945cd675ff9cfc152e6925e1c0d2baab3a01c9be476770c59bc776740c21da1"
+    },
+    "cs_CZ/cs_CZ.aff": {
+      "last_commit_epoch": 1788967862,
+      "sha256": "cae05f86d965df73f192c2136ca3084e5cda2e7c1ef77224a0c6bede0a7f2118"
+    },
+    "cs_CZ/cs_CZ.dic": {
+      "last_commit_epoch": 1788967862,
+      "sha256": "5f90c3fa85a5e758752d7204eea3f44d5617eff7121c396aba5c86087343bcd5"
+    },
+    "cs_CZ/package-info.xml": {
+      "last_commit_epoch": 1791493716,
+      "sha256": "f16ff96ddba28eb4c361e10093836b44d5ad9a68a579e5c2b24be27d66444f5c"
+    },
+    "da_DK/README_da_DK.txt": {
+      "last_commit_epoch": 1788967862,
+      "sha256": "d2b83e292151f0e52a7f0e0a21cd68124300e0a1019ac555f0c10c366dd0db08"
+    },
+    "da_DK/da_DK.aff": {
+      "last_commit_epoch": 1788967862,
+      "sha256": "21dff9da3848beff8b3fad712204d7322013c522ff7fd3e53208d6dd2fb389c6"
+    },
+    "da_DK/da_DK.dic": {
+      "last_commit_epoch": 1788967862,
+      "sha256": "f5d223ee3e1a16ec909e72576126b96439afc03793b5748dd1d712172d91961e"
+    },
+    "da_DK/package-info.xml": {
+      "last_commit_epoch": 1788967862,
+      "sha256": "0f5319b4a2db050c9ad6ba629af172afa8600236f23ffe71310e7b20e1f288cf"
+    },
+    "de_AT/README_de_AT_frami.txt": {
+      "last_commit_epoch": 1788967862,
+      "sha256": "3dd91e063fe4ed0e6f165f82ddcd0d856faf44477bc303695b860f7c3305fc7b"
+    },
+    "de_AT/de_AT_frami.aff": {
+      "last_commit_epoch": 1788967862,
+      "sha256": "17217b96532c734d50bd9802f635d2e012deb448d06105cc0331043652f83439"
+    },
+    "de_AT/de_AT_frami.dic": {
+      "last_commit_epoch": 1788967862,
+      "sha256": "898adb60cd0a283f47a064355643880397303d16242e7131ebeae6a6351da6c7"
+    },
+    "de_AT/package-info.xml": {
+      "last_commit_epoch": 1788967862,
+      "sha256": "c689076d15277ab3a67d899cd5106f416fbddf706d2797157e7dd086b950b526"
+    },
+    "de_CH/README_de_CH_frami.txt": {
+      "last_commit_epoch": 1788967862,
+      "sha256": "3dd91e063fe4ed0e6f165f82ddcd0d856faf44477bc303695b860f7c3305fc7b"
+    },
+    "de_CH/de_CH_frami.aff": {
+      "last_commit_epoch": 1788967862,
+      "sha256": "17217b96532c734d50bd9802f635d2e012deb448d06105cc0331043652f83439"
+    },
+    "de_CH/de_CH_frami.dic": {
+      "last_commit_epoch": 1788967862,
+      "sha256": "af3b41516bfa965e7830228bf80489f690588983af91cdf38ca0ad48fed6267e"
+    },
+    "de_CH/package-info.xml": {
+      "last_commit_epoch": 1788967862,
+      "sha256": "715caf3af463812e936439dd0457c60e3a9c775d4621e7c87de923d0ee144559"
+    },
+    "de_DE_1901/README_de_DE_1901.txt": {
+      "last_commit_epoch": 1788967862,
+      "sha256": "0ddce09963e05775562e1957c61ec24b23f68aa250b610aab047164948f9e508"
+    },
+    "de_DE_1901/de_DE_1901.aff": {
+      "last_commit_epoch": 1788967862,
+      "sha256": "f954920af391036412ba02a660c2dcc22781fd36d8cc19d69901430872390175"
+    },
+    "de_DE_1901/de_DE_1901.dic": {
+      "last_commit_epoch": 1788967862,
+      "sha256": "e1f5130a0aea8404cbe00c53e4342f30f8242f5a1fbf488c9d34d5c7e81b0e51"
+    },
+    "de_DE_1901/package-info.xml": {
+      "last_commit_epoch": 1788967862,
+      "sha256": "4766cada4149a304cf1ff64f1e535fe5408f7829e8d983d63187985fc13fbbe3"
+    },
+    "de_DE_comb/README_de_DE_comb.txt": {
+      "last_commit_epoch": 1788967862,
+      "sha256": "9ef26e87938c4432ba4854663ba0196124880447a007c87d126fae87fdcade8c"
+    },
+    "de_DE_comb/de_DE_comb.aff": {
+      "last_commit_epoch": 1788967862,
+      "sha256": "18734086dd466fdd45cc70bebc1503b923fae107e75c5fc14b929809fe855486"
+    },
+    "de_DE_comb/de_DE_comb.dic": {
+      "last_commit_epoch": 1788967862,
+      "sha256": "a563bc575db862944bb5088a72b4b8ba90d45ad43a0e73ac975e7dc7638fff65"
+    },
+    "de_DE_comb/package-info.xml": {
+      "last_commit_epoch": 1788967862,
+      "sha256": "55cb5c0966931f46b157dc57c59229364834e8e78dd13300cba3a02c980add7c"
+    },
+    "el_GR/README_el_GR.txt": {
+      "last_commit_epoch": 1788967862,
+      "sha256": "2d21ef83b8a2449b7d09c6e65d13dd1702d1ebe5740eac93e19f9f897c2075bc"
+    },
+    "el_GR/el_GR.aff": {
+      "last_commit_epoch": 1788967862,
+      "sha256": "eabb4fd49b02986ed1569c9f997246e2e8ffdb68842ba6f65cad87253909f15c"
+    },
+    "el_GR/el_GR.dic": {
+      "last_commit_epoch": 1788967862,
+      "sha256": "4bc767ccf0292d99d99b6d1806602589eb5d38fe0ffe3547b03544610a8f7f52"
+    },
+    "el_GR/package-info.xml": {
+      "last_commit_epoch": 1788967862,
+      "sha256": "192adaa6acb401741517d83c366b7479f44391997aa3b038fd91cbdb92e3de65"
+    },
+    "en_AU/README_en_AU.txt": {
+      "last_commit_epoch": 1788967862,
+      "sha256": "f2e182ad3b63aea225fbe7286d4d542aa04458aa030589986dc3dd6e68a6a37e"
+    },
+    "en_AU/en_AU.aff": {
+      "last_commit_epoch": 1788967862,
+      "sha256": "5f14d411a5a1335d7cc86e23c5fe595c438eadb24f63294c79711aee301f53f7"
+    },
+    "en_AU/en_AU.dic": {
+      "last_commit_epoch": 1788967862,
+      "sha256": "7ba1c2f3148621154d1a1e57cd0d56a931992e88fb1bafb21cf95706415c999f"
+    },
+    "en_AU/package-info.xml": {
+      "last_commit_epoch": 1788967862,
+      "sha256": "e85ffb5d56ad9d0458ada6966877b865b9ce0a899c63ad6d5da5c1d0090836a1"
+    },
+    "en_CA/README_en_CA.txt": {
+      "last_commit_epoch": 1788967862,
+      "sha256": "bea6ebbb8c54521149169098bcd2ac741432afa7c5ef141ac5ef5369e3f733a5"
+    },
+    "en_CA/en_CA.aff": {
+      "last_commit_epoch": 1788967862,
+      "sha256": "87eaeacd0c87719882a8401712ced5c9ede2f76760378fd65a11cd21e28fd80d"
+    },
+    "en_CA/en_CA.dic": {
+      "last_commit_epoch": 1788967862,
+      "sha256": "40c92a9d81248bb53b2c233cecbf639b2c59ab371f15cd6ef3a90ea6f65b5dc7"
+    },
+    "en_CA/package-info.xml": {
+      "last_commit_epoch": 1788967862,
+      "sha256": "88a47ccc8721aefa0b73ad59027f117052eb8401b53b3ef2115928e06389c83e"
+    },
+    "en_GB/README_en_GB.txt": {
+      "last_commit_epoch": 1788967862,
+      "sha256": "43a668859416987e607cf1607443c0a29e1646c0131a54c09784577402b5f5c8"
+    },
+    "en_GB/en_GB.aff": {
+      "last_commit_epoch": 1788967862,
+      "sha256": "fd03a65156d1ad0919add75ee507e3d6d003d64b2c18e65c1ab31a82a915540e"
+    },
+    "en_GB/en_GB.dic": {
+      "last_commit_epoch": 1788967862,
+      "sha256": "3d00ed46d4f76464e48d8f86e0fbe28631776debe9756ec242e75774b7bbe26e"
+    },
+    "en_GB/package-info.xml": {
+      "last_commit_epoch": 1788967862,
+      "sha256": "853211a8cba1f98a3ce528fe797e4760d99c9c4595c201dfc132d202b8abe124"
+    },
+    "en_NZ/README_en_NZ.txt": {
+      "last_commit_epoch": 1788967862,
+      "sha256": "ff3992e270ea1be400355bfd50562e62115bcd0031ba25f2498676b7a5f9a5e5"
+    },
+    "en_NZ/en_NZ.aff": {
+      "last_commit_epoch": 1788967862,
+      "sha256": "4c1dd7fb16d3d47d2f0a2239fa6117b47b2a7f5984385729d66b46cee4154a05"
+    },
+    "en_NZ/en_NZ.dic": {
+      "last_commit_epoch": 1788967862,
+      "sha256": "e1f9feeb069c9cf83b1e827611df0f833939e8b2335ebd291187dc35a4bb29f9"
+    },
+    "en_NZ/package-info.xml": {
+      "last_commit_epoch": 1788967862,
+      "sha256": "aaeef62aec088e23eaa3c1663369229db698eb95f8bf18b69b9e063e2ca53c53"
+    },
+    "en_US/README_en_US.txt": {
+      "last_commit_epoch": 1788967862,
+      "sha256": "831dc6a268d83fd5339b882356b79aa2beae041deff82f378d312c2f065fbe9b"
+    },
+    "en_US/en_US.aff": {
+      "last_commit_epoch": 1788967862,
+      "sha256": "c7a8c4d08c29d237880844b1623099f59092602f189be38ce3912e457ff38bc1"
+    },
+    "en_US/en_US.dic": {
+      "last_commit_epoch": 1788967862,
+      "sha256": "bb13c4e70e062f76183151b5359f345b74c295b4ca108cad7a2c2cba18d12349"
+    },
+    "en_US/package-info.xml": {
+      "last_commit_epoch": 1788967862,
+      "sha256": "94265d10498756ba4c60978bcdf2ffd283f80230bde870ecf700a502426af0a9"
+    },
+    "en_ZA/README_en_ZA.txt": {
+      "last_commit_epoch": 1788967862,
+      "sha256": "15f9c6bc800d53d7b6be0b659f326096533fbf0182209d2e5d9212987f681521"
+    },
+    "en_ZA/en_ZA.aff": {
+      "last_commit_epoch": 1788967862,
+      "sha256": "272bc9ee1b7b5b09b1fc57edfb9479796a17d1fcba4062a5ae97d3bbdec5dff7"
+    },
+    "en_ZA/en_ZA.dic": {
+      "last_commit_epoch": 1788967862,
+      "sha256": "1e84b19b6d399ba2bf1f3d0be792cae3d16cbe2bcc46f8cd06780a3121c39b1e"
+    },
+    "en_ZA/package-info.xml": {
+      "last_commit_epoch": 1788967862,
+      "sha256": "b3c76aa30e594b531700345ce9fca3c44b8b26f5badf2c2d9963a64d644e398e"
+    },
+    "es_AR/es_AR.aff": {
+      "last_commit_epoch": 1788967862,
+      "sha256": "4feaf75445ae0140f2583ad4fb40155291a6ff56874325ccc724d58d4d26f782"
+    },
+    "es_AR/es_AR.dic": {
+      "last_commit_epoch": 1788967862,
+      "sha256": "690781cf092e4c95403efe5d4ac1898c7fe30a29e96182f4571dba12c65013e5"
+    },
+    "es_AR/package-info.xml": {
+      "last_commit_epoch": 1788967862,
+      "sha256": "a84ac5e56be27c0ceed42c845f93232b10fafb75e4be954d17934f4fb2f92d10"
+    },
+    "es_ES/README_es_ES.txt": {
+      "last_commit_epoch": 1788967862,
+      "sha256": "ea19a9d800d0c338abf8e814a12374a51b4cfe6a4b833015f4902650c4df3ded"
+    },
+    "es_ES/es_ES.aff": {
+      "last_commit_epoch": 1788967862,
+      "sha256": "b0a5619feb1444d2bb3176bd611b62f1d3940583a0175b2b20a2ed7dcf6a9f1c"
+    },
+    "es_ES/es_ES.dic": {
+      "last_commit_epoch": 1788967862,
+      "sha256": "c61a33a0a3f84318505f00ba4ff3e7f17c19c78bf8eafff2360a943360f4d6f8"
+    },
+    "es_ES/license_es_ES.txt": {
+      "last_commit_epoch": 1788967862,
+      "sha256": "53692a2ed6c6a2c6ec9b32dd0b820dfae91e0a1fcdf625ca9ed0bdf8705fcc4f"
+    },
+    "es_ES/package-info.xml": {
+      "last_commit_epoch": 1788967862,
+      "sha256": "a089c514f8bde87b11b519bd76a70cefab3bdfa8c7c172e7b96eb50397ea4003"
+    },
+    "es_MX/es_MX.aff": {
+      "last_commit_epoch": 1788967862,
+      "sha256": "50fd98facef7ed0f7217bb026b13701036f269f18e4841cf4497051da0985654"
+    },
+    "es_MX/es_MX.dic": {
+      "last_commit_epoch": 1788967862,
+      "sha256": "165c3de445e84aae2d068f77c3ccba66d47bfa4f02685995937a57d21fdbf23d"
+    },
+    "es_MX/package-info.xml": {
+      "last_commit_epoch": 1788967862,
+      "sha256": "f4037915d96d35ecaf3bfca0dea7805ea6bbbbc6faedf643b0576f3f0e076035"
+    },
+    "es_VE/es_VE.aff": {
+      "last_commit_epoch": 1788967862,
+      "sha256": "2afd3d7c1021658726f0580f88029ab711f2eb0056c87b872623bdd4223c26a7"
+    },
+    "es_VE/es_VE.dic": {
+      "last_commit_epoch": 1788967862,
+      "sha256": "8cd8ee44e798e42b6845bf8613e6888f1edacc4b1c34a4c159a1bf265c885794"
+    },
+    "es_VE/license_es_VE.txt": {
+      "last_commit_epoch": 1788967862,
+      "sha256": "6fb52a67d9547eaae7430c81020a05f99854031e079fa27791140bb5f12d628b"
+    },
+    "es_VE/package-info.xml": {
+      "last_commit_epoch": 1788967862,
+      "sha256": "d25b775722fceee7c86d754252cef2a8b8cab7a3a65f89002a1267b4c6f96f8a"
+    },
+    "et_EE/README_et_EE.txt": {
+      "last_commit_epoch": 1788967862,
+      "sha256": "329853a902a4a749d62c91bf6e2036b71ede5d5db241a3fb5dd9fc02867e5827"
+    },
+    "et_EE/et_EE.aff": {
+      "last_commit_epoch": 1788967862,
+      "sha256": "2fa53b7853762ec8c63ffa14b2d96d23433e3f2c2d3d218ad7c2461673099f95"
+    },
+    "et_EE/et_EE.dic": {
+      "last_commit_epoch": 1788967862,
+      "sha256": "cd1378434aefeaa8a31f49369dbf71caf4e6340badb5c2cf7a55820933ed4f13"
+    },
+    "et_EE/package-info.xml": {
+      "last_commit_epoch": 1788967862,
+      "sha256": "42b02d62bbf929b85858c1d2a95bc539ecd7aec61844ef1f10e5971bab05fe30"
+    },
+    "fa_IR/fa_IR.aff": {
+      "last_commit_epoch": 1788967862,
+      "sha256": "7f6d7c55043d4b09d0a4380720847457b7954048bf1dac70512593006bae8c37"
+    },
+    "fa_IR/fa_IR.dic": {
+      "last_commit_epoch": 1791537527,
+      "sha256": "f68a8449dd7cb9090b2b008e8d3d026004180cc4e7a79f55b615ba0b57d2d2e2"
+    },
+    "fa_IR/package-info.xml": {
+      "last_commit_epoch": 1788967862,
+      "sha256": "5cb9427984641cbd0df81bd7e3598c5b8f58ff65890a3043e1a4d961d0e4f90e"
+    },
+    "fr_FR/README_fr_FR.txt": {
+      "last_commit_epoch": 1788967862,
+      "sha256": "03af11b526125278c6b25f1c8c316a8768628bd1ee2f4bbdd2694e5effa5be43"
+    },
+    "fr_FR/fr_FR.aff": {
+      "last_commit_epoch": 1788967862,
+      "sha256": "430f58efaf62cb8276b0c536265442b55672500326f6d92f3c12745619895c2a"
+    },
+    "fr_FR/fr_FR.dic": {
+      "last_commit_epoch": 1788967862,
+      "sha256": "9e394541696927022cb28929fa56239ffb5865511d15987808112960f0837df2"
+    },
+    "fr_FR/package-info.xml": {
+      "last_commit_epoch": 1788967862,
+      "sha256": "c6f37e29b62a66ee8df86a3f3ce9368f1175a6a4df4665734300411ffd9ad8ae"
+    },
+    "ga_IE/README_ga_IE.txt": {
+      "last_commit_epoch": 1788967862,
+      "sha256": "be3543cdc684c6dc14167ad629918a1bae53964882336d0bc828672a7f9f7c80"
+    },
+    "ga_IE/ga_IE.aff": {
+      "last_commit_epoch": 1788967862,
+      "sha256": "56476ea0e06e07282227619b3d2963aa4ac25568c22e3682fa025531adb21fff"
+    },
+    "ga_IE/ga_IE.dic": {
+      "last_commit_epoch": 1788967862,
+      "sha256": "714dd751c14e771abccd92f5a3d2871aa6ec9b5b9cb925be9f71116b486aadf8"
+    },
+    "ga_IE/package-info.xml": {
+      "last_commit_epoch": 1788967862,
+      "sha256": "0f324473eb07302532d4ae4d1fe276591f33c5d5930d8d58ede0bf294fe72b32"
+    },
+    "he_IL/README_he_IL.txt": {
+      "last_commit_epoch": 1788967862,
+      "sha256": "ac84be7eb37b6ff9b4e06e31e518d905a052a3f20a099486b328fa491f850dc8"
+    },
+    "he_IL/he_IL.aff": {
+      "last_commit_epoch": 1788967862,
+      "sha256": "659bbbd6f440ffeeb6814fe87aeac32a16ab390c92b453d158e3ea1663fb3e72"
+    },
+    "he_IL/he_IL.dic": {
+      "last_commit_epoch": 1788967862,
+      "sha256": "d4d94937be0dc3bee1073ba81a48d4bee4cca0650d46dfa05d553978915b8e73"
+    },
+    "he_IL/package-info.xml": {
+      "last_commit_epoch": 1788967862,
+      "sha256": "7d1c9fae6d66cd495cc76bd377edf4d695288b037e43640bae9a0123cb056e23"
+    },
+    "hr_HR/hr_HR.aff": {
+      "last_commit_epoch": 1788967862,
+      "sha256": "d7727b5637c7eaceafa5bfb0ed448f172e2245c5bc59c609eae50177b91b5790"
+    },
+    "hr_HR/hr_HR.dic": {
+      "last_commit_epoch": 1788967862,
+      "sha256": "1b407fc2e03a5e38b3af11b79e1f81a04c492b6c270bc1cc1917dac96c9433b7"
+    },
+    "hr_HR/package-info.xml": {
+      "last_commit_epoch": 1788967862,
+      "sha256": "74167263a51daee4ccc4915cf9a1cd13b2610bf8a37c90f8cd0cf1fecd381123"
+    },
+    "hu_HU/README_hu_HU.txt": {
+      "last_commit_epoch": 1788967862,
+      "sha256": "34d6f94e8398ff408105305d6ec49c64b3b57702106cdd6ec9c41fcb637057f1"
+    },
+    "hu_HU/hu_HU.aff": {
+      "last_commit_epoch": 1788967862,
+      "sha256": "03465ee40bd86ce2f77865cc303685975a9493f3276159cb859ad1b89acf62a0"
+    },
+    "hu_HU/hu_HU.dic": {
+      "last_commit_epoch": 1788967862,
+      "sha256": "499e0bb7cb98815e646a69908ac1ea96c900ff2ff40e7dfa9a47e9653df0a497"
+    },
+    "hu_HU/package-info.xml": {
+      "last_commit_epoch": 1788967862,
+      "sha256": "f29aa786acc55d4e4aeb6733dd232f2fcb63b09a5ecde99cc1297669ee436f99"
+    },
+    "id_ID/README_id_ID.txt": {
+      "last_commit_epoch": 1788967862,
+      "sha256": "0d767ea512daa43c91fdc743071cd7f998bcbd1c875b8aec1c6f73e88be94a7b"
+    },
+    "id_ID/id_ID.aff": {
+      "last_commit_epoch": 1788967862,
+      "sha256": "f663c7a104bcb1d8d9e89dd48da09d6ef53057bdf6d12add2b566a9f97c4d010"
+    },
+    "id_ID/id_ID.dic": {
+      "last_commit_epoch": 1788967862,
+      "sha256": "18a7eb7d5a03e7b8bda07633b8bf704a7dc5985636f27ba7fec3df6fb7de8b18"
+    },
+    "id_ID/package-info.xml": {
+      "last_commit_epoch": 1788967862,
+      "sha256": "a17d93aba9ca7b8b0a3d842c8504f98a3c636033d47111b612bca79c8ab06ab3"
+    },
+    "is_IS/is_IS.aff": {
+      "last_commit_epoch": 1788967862,
+      "sha256": "82ebc3c29a3f38dcdf8d8b2d67c4183c249ebf71369cb096262d4de071b3b3e8"
+    },
+    "is_IS/is_IS.dic": {
+      "last_commit_epoch": 1788967862,
+      "sha256": "b709adfa5fd78caee00be38a14f6315b39b732d8fb91165001e04ec3293fc852"
+    },
+    "is_IS/package-info.xml": {
+      "last_commit_epoch": 1788967862,
+      "sha256": "0053e84fd8f3c151a3de89be213bb7aa3d90f86531c2f528cbebe6052de8315c"
+    },
+    "it_IT/README_it_IT.txt": {
+      "last_commit_epoch": 1788967862,
+      "sha256": "3c69e5815f81c7bf97cf7e3dce868205b0b0306282a271bde8cb1398dcb9e074"
+    },
+    "it_IT/it_IT.aff": {
+      "last_commit_epoch": 1788967862,
+      "sha256": "809ef88a9370f68ea93133a8a7343d2744c043bc8024f4d871007eb636da2caf"
+    },
+    "it_IT/it_IT.dic": {
+      "last_commit_epoch": 1788967862,
+      "sha256": "76554c6bbba4f72702017494b6023acf3123533f0e65ee0fad16c5956e81d3e3"
+    },
+    "it_IT/package-info.xml": {
+      "last_commit_epoch": 1788967862,
+      "sha256": "20f4590a3ef60cd559132799cd6a3d9447d72f2daac3b81e8c6e593e9a89f94b"
+    },
+    "ko_KR/README_ko_KR.txt": {
+      "last_commit_epoch": 1788967862,
+      "sha256": "5297a1f685e36041352b989327dfd1f1d9d8e48fef0097b7e0c70602e23c4ce0"
+    },
+    "ko_KR/ko_KR.aff": {
+      "last_commit_epoch": 1788967862,
+      "sha256": "0dd4991593f8fcf34ceb679a9cbd0774e46a565029e3bfbdfee37706a564c817"
+    },
+    "ko_KR/ko_KR.dic": {
+      "last_commit_epoch": 1788967862,
+      "sha256": "d9c11bdef2ff03a780aec87d3baf167f571263182cfd9064956a1b8073daf944"
+    },
+    "ko_KR/package-info.xml": {
+      "last_commit_epoch": 1788967862,
+      "sha256": "74c5a79ec01de6f5571b0b3577072049ed853f9e328a2f40bdc39a8f01bb39aa"
+    },
+    "lt_LT/README_lt_LT.txt": {
+      "last_commit_epoch": 1788967862,
+      "sha256": "3ba3266619502eb8021694c53a4911bfa09104f6ee2c6afb78049b7fa8ccb265"
+    },
+    "lt_LT/lt_LT.aff": {
+      "last_commit_epoch": 1788967862,
+      "sha256": "01ec7b4edc369f696c39918aa9b33e5e738005983f3a76ce4817af2ed361b060"
+    },
+    "lt_LT/lt_LT.dic": {
+      "last_commit_epoch": 1788967862,
+      "sha256": "bde5e5bfb5dd52cb2d9d35f83b3ce34c485a87ee674dd6271a73e802fa55688e"
+    },
+    "lt_LT/package-info.xml": {
+      "last_commit_epoch": 1788967862,
+      "sha256": "57cc44bf38354ef72a54e6942e258d77f54b67a366cae5b6384d6fad8fd0f15e"
+    },
+    "lv_LV/lv_LV.aff": {
+      "last_commit_epoch": 1788967862,
+      "sha256": "d469c86da67214316a2df4227e835998271be9749531c84f8e11e6f0ca765873"
+    },
+    "lv_LV/lv_LV.dic": {
+      "last_commit_epoch": 1788967862,
+      "sha256": "7b1983d832ba8f85e7bee0d9dc3abc110d9a9976fc6da9d0bc2a9dcad9c36c51"
+    },
+    "lv_LV/package-info.xml": {
+      "last_commit_epoch": 1788967862,
+      "sha256": "28aa74be6716a67a0d82852c870ab2cacb0ed0e7ca6b59a720d0cec528cbbbe3"
+    },
+    "mk_MK_Cyrl/README_mk_MK_Cyrl.txt": {
+      "last_commit_epoch": 1788967862,
+      "sha256": "a88a404820fc306e6f6493e01e25f5e0b78a287f1bd7c2ea66a61d415a73465c"
+    },
+    "mk_MK_Cyrl/mk_MK_Cyrl.aff": {
+      "last_commit_epoch": 1788967862,
+      "sha256": "ecfa49d047d4c933c629d08732c241d8f27d150b791ab9ecfc6ea05743c05129"
+    },
+    "mk_MK_Cyrl/mk_MK_Cyrl.dic": {
+      "last_commit_epoch": 1788967862,
+      "sha256": "d32b6ace756ec7d1f30b7fd206249e768ed336eaac8eabedfe06d9098606d7b1"
+    },
+    "mk_MK_Cyrl/package-info.xml": {
+      "last_commit_epoch": 1788967862,
+      "sha256": "61c1b8f88abf81e9199d46829f9cc4a923aaa37d8571630b9dca1799d41ed87f"
+    },
+    "mk_MK_Latn/README_mk_MK_Latn.txt": {
+      "last_commit_epoch": 1788967862,
+      "sha256": "a88a404820fc306e6f6493e01e25f5e0b78a287f1bd7c2ea66a61d415a73465c"
+    },
+    "mk_MK_Latn/mk_MK_Latn.aff": {
+      "last_commit_epoch": 1788967862,
+      "sha256": "42b358b79c70ee07267467c6e1724c9ff0a0643407bc52ae05e041c6f8ea24fe"
+    },
+    "mk_MK_Latn/mk_MK_Latn.dic": {
+      "last_commit_epoch": 1788967862,
+      "sha256": "3187ceb969355e33d8a4dfaa6bc5d2a1ab8e56fbeb4934e24c1e40267616e95b"
+    },
+    "mk_MK_Latn/package-info.xml": {
+      "last_commit_epoch": 1788967862,
+      "sha256": "0feb1114ab27b39d3d6452aa0add4da5251d600d544f1b7c844e375d9698b503"
+    },
+    "mn_MN/README_mn_MN.txt": {
+      "last_commit_epoch": 1788967862,
+      "sha256": "6833c111398bb515746383cdf831744a157c823f33897b53fc6563311907499b"
+    },
+    "mn_MN/mn_MN.aff": {
+      "last_commit_epoch": 1788967862,
+      "sha256": "8593d262a7c269f82d9e68d9fa6573c4b638cb22e43464ae357590f5cbc09182"
+    },
+    "mn_MN/mn_MN.dic": {
+      "last_commit_epoch": 1788967862,
+      "sha256": "8630dd21d8850fd137b3b15f97619fd9f8efc498a8b34045eb274beb2b0e7ad6"
+    },
+    "mn_MN/package-info.xml": {
+      "last_commit_epoch": 1788967862,
+      "sha256": "e89e6a4f2a693f764836b83aede1a448f99aca3b7ef36fff0bbc232fecac85b1"
+    },
+    "nb_NO/README_nb_NO.txt": {
+      "last_commit_epoch": 1788967862,
+      "sha256": "ce1f2e2b86fe56920ab7e52823a785d3b0f1010eaf01aea5e05ed7fd43bbd7bf"
+    },
+    "nb_NO/nb_NO.aff": {
+      "last_commit_epoch": 1788967862,
+      "sha256": "68265c84eebd06d77031947c6c3e49de4c1e211cfcfed675f8d8dc63517df096"
+    },
+    "nb_NO/nb_NO.dic": {
+      "last_commit_epoch": 1788967862,
+      "sha256": "b06ec5e56356d97165109abe914f162f1350ebebadfc5f89c2207b6e676c2316"
+    },
+    "nb_NO/package-info.xml": {
+      "last_commit_epoch": 1788967862,
+      "sha256": "f2579ebf76ba0e713746a5cfa6c18cfbf2f9ae6d36b9e6b257a068a99a435bbb"
+    },
+    "nl_NL/README_nl_NL.txt": {
+      "last_commit_epoch": 1788967862,
+      "sha256": "78bd05ad23f3f8020ff8230c5e559bf3f11f3fcdf3bf623476b1672fb7e0f8e2"
+    },
+    "nl_NL/nl_NL.aff": {
+      "last_commit_epoch": 1788967862,
+      "sha256": "9a06227b61fed41c0eed4eee1cc4376733572ef4c7a6a9c8886cc38d6b2046fb"
+    },
+    "nl_NL/nl_NL.dic": {
+      "last_commit_epoch": 1788967862,
+      "sha256": "7d8bddf6e7dbe4a36cdc9f7d87562adcfa4a6981487d84950758f81f6a61b0cf"
+    },
+    "nl_NL/package-info.xml": {
+      "last_commit_epoch": 1788967862,
+      "sha256": "5f5b3110cba0ca3c3d3b29914abf051454e17119307fc5a52f10f8074788e813"
+    },
+    "pl_PL/package-info.xml": {
+      "last_commit_epoch": 1788967862,
+      "sha256": "6ae20e57ce400e3f9e763378edd05f5c76b91d9da73a0c11c072cbf1ac348d58"
+    },
+    "pl_PL/pl_PL.aff": {
+      "last_commit_epoch": 1788967862,
+      "sha256": "32f78015cc17f5a884b33c42bef3c80e8d773fad042d2c10eeeb7a1a9da42c87"
+    },
+    "pl_PL/pl_PL.dic": {
+      "last_commit_epoch": 1788967862,
+      "sha256": "0ecded77e0986cebe0289d264cef5043eb5fab519bd473ab785c0b8bfc920f8c"
+    },
+    "pt_BR/README_pt_BR.txt": {
+      "last_commit_epoch": 1788967862,
+      "sha256": "d8eb83d5b96d94bbf30b261ead6276b8a7c15fe6d5a47ef521d9e9a045197af8"
+    },
+    "pt_BR/package-info.xml": {
+      "last_commit_epoch": 1788967862,
+      "sha256": "c1d2cfb841cc84e507056108cdfacc93de475df091909c40e24ec26245da11aa"
+    },
+    "pt_BR/pt_BR.aff": {
+      "last_commit_epoch": 1788967862,
+      "sha256": "3401bcab97abcc9f80b0f7d78eafaa8e73a1e2ec61282bd41359b0c3a1fcaf81"
+    },
+    "pt_BR/pt_BR.dic": {
+      "last_commit_epoch": 1788967862,
+      "sha256": "7b6d66334194074c2e0178ef8bb658991e95998ab56240ebad59d1401d00e6fa"
+    },
+    "pt_PT/README_pt_PT.txt": {
+      "last_commit_epoch": 1788967862,
+      "sha256": "67c02d1209815cf60a0d05983e5a1dd17baabef0d6e6296c402f4fa278a94a59"
+    },
+    "pt_PT/package-info.xml": {
+      "last_commit_epoch": 1788967862,
+      "sha256": "9271d2d126f0d8bd09b1f8582513e604083606983eaf06fdd0369accdae7cc0f"
+    },
+    "pt_PT/pt_PT.aff": {
+      "last_commit_epoch": 1788967862,
+      "sha256": "975a209fcc892cb382fa5f34a28c391a39668661ce373ae071287809c5fcae24"
+    },
+    "pt_PT/pt_PT.dic": {
+      "last_commit_epoch": 1788967862,
+      "sha256": "aff2b76c1ecf9c49d68070ed7e5e29a3b30b0afd3ba1096691bc0610bf4b2b38"
+    },
+    "ro_RO/package-info.xml": {
+      "last_commit_epoch": 1788967862,
+      "sha256": "d81ac5cd913ed510bfb0ef636098ff9067f118b6deef3fb7ebd650c31f2b226c"
+    },
+    "ro_RO/ro_RO.aff": {
+      "last_commit_epoch": 1788967862,
+      "sha256": "7c247cf97e8e77f277c1f6142bd7f9adfb9e10637cd2ce3cb7c6b80efb6aea61"
+    },
+    "ro_RO/ro_RO.dic": {
+      "last_commit_epoch": 1788967862,
+      "sha256": "c26a9356f598a0ae89e7be650f6bdd9ba70acce66b41d7ab14c0c68639b6ed33"
+    },
+    "ru_RU_ie/README_ru_RU_ie.txt": {
+      "last_commit_epoch": 1788967862,
+      "sha256": "09739eed074a966ebf7c1cac5af6c661cae7915e6efb92f603e9246d8476215c"
+    },
+    "ru_RU_ie/package-info.xml": {
+      "last_commit_epoch": 1788967862,
+      "sha256": "b433fedcf32e69e69a6445de134c6ad6a5d5b575c21f5367c83a251b122fe1ae"
+    },
+    "ru_RU_ie/ru_RU_ie.aff": {
+      "last_commit_epoch": 1788967862,
+      "sha256": "2d2cec20a6fb9924c238c3d509f314380aa1ec6d888724f99f22fda9cafbe9b9"
+    },
+    "ru_RU_ie/ru_RU_ie.dic": {
+      "last_commit_epoch": 1788967862,
+      "sha256": "719c85114bb38a047eed3d57eed3d38dcf11f7b0b22028aeb94ce1ca7541be75"
+    },
+    "ru_RU_ie2/README_ru_RU_ie2.txt": {
+      "last_commit_epoch": 1788967862,
+      "sha256": "6139d8e76cde7b65809d723710209fd85c942d13e5cec10bd1e95500668e85b8"
+    },
+    "ru_RU_ie2/package-info.xml": {
+      "last_commit_epoch": 1788967862,
+      "sha256": "6dc2e166650ba63d62ee4e13748a020805992641b749591d4c2542b71d5cbee0"
+    },
+    "ru_RU_ie2/ru_RU_ie2.aff": {
+      "last_commit_epoch": 1788967862,
+      "sha256": "e68d4bae99f75f952a5d3b0f3176cd9ebd0a102aa1e898d9b8b6745b3b9ccf2e"
+    },
+    "ru_RU_ie2/ru_RU_ie2.dic": {
+      "last_commit_epoch": 1788967862,
+      "sha256": "805a8bcb37c46128ea1c4ec432508977fb026063338c63711573b933104f9f11"
+    },
+    "ru_RU_io/package-info.xml": {
+      "last_commit_epoch": 1788967862,
+      "sha256": "65a539cf9f670c20e1cc1809ab83a78c84639c018637451e69381fa60d2b2e8b"
+    },
+    "ru_RU_io/ru_RU_io.aff": {
+      "last_commit_epoch": 1788967862,
+      "sha256": "f868ff4913af498d342fd9423d5a5295720aa2d66d0d9e7a05fc18fa0eb5e236"
+    },
+    "ru_RU_io/ru_RU_io.dic": {
+      "last_commit_epoch": 1788967862,
+      "sha256": "6ae45df89675ff5f836107c9023001a0688be7e49d16c3f4f7648bdb329aace1"
+    },
+    "sh_YU_Cyrl/README_sh_YU_Cyrl.txt": {
+      "last_commit_epoch": 1788967862,
+      "sha256": "934fe2e00a2ebdce5d780b5deb8908b8eb230c5984dc2fefc9d9169e95cd6460"
+    },
+    "sh_YU_Cyrl/package-info.xml": {
+      "last_commit_epoch": 1788967862,
+      "sha256": "ec2e7fe019479b7fcba04c4a08e44839f184df6e27cd9d13d3fb5b41d0971a88"
+    },
+    "sh_YU_Cyrl/sh_YU_Cyrl.aff": {
+      "last_commit_epoch": 1788967862,
+      "sha256": "b78b79b0a94ad9bc88b6966170b0ffd5456dbe255e0b55f9e9c0122ebab9a811"
+    },
+    "sh_YU_Cyrl/sh_YU_Cyrl.dic": {
+      "last_commit_epoch": 1788967862,
+      "sha256": "27af1b754c4e2cb24ca1fb24edbf0ff94a88818e948f60e79c903b481c5d8b81"
+    },
+    "sh_YU_Latn/README_sh_YU_Latn.txt": {
+      "last_commit_epoch": 1788967862,
+      "sha256": "934fe2e00a2ebdce5d780b5deb8908b8eb230c5984dc2fefc9d9169e95cd6460"
+    },
+    "sh_YU_Latn/package-info.xml": {
+      "last_commit_epoch": 1788967862,
+      "sha256": "dd7e0664ec3919e7f8d9618fde052ff97b68dd54b6094dee7eb89b8f44d90c0f"
+    },
+    "sh_YU_Latn/sh_YU_Latn.aff": {
+      "last_commit_epoch": 1788967862,
+      "sha256": "f64e8e73b01d1dce68d6d1b939296485f86f64dfa25c0e2c4d92119df101c2e3"
+    },
+    "sh_YU_Latn/sh_YU_Latn.dic": {
+      "last_commit_epoch": 1788967862,
+      "sha256": "18eb71ab012e756d810d031d3b07f53fba1db8bb964da7e5022e0ff5057a2faf"
+    },
+    "sk_SK/README_sk_SK.txt": {
+      "last_commit_epoch": 1788967862,
+      "sha256": "04903300e57a64a9967f85cdc65038470165b56bd34843e161f89d1fb9bcc0cd"
+    },
+    "sk_SK/package-info.xml": {
+      "last_commit_epoch": 1788967862,
+      "sha256": "3700fcfa14c3adedaae038802c817536ff735b89be4885d80ad626435ef27f7b"
+    },
+    "sk_SK/sk_SK.aff": {
+      "last_commit_epoch": 1788967862,
+      "sha256": "ebbc0467fab46b83101ba75579888b4933f5e1287a64211b5f03b95922e7a88d"
+    },
+    "sk_SK/sk_SK.dic": {
+      "last_commit_epoch": 1788967862,
+      "sha256": "5d102142580920a458719195dff2bafb268c66e0ffb29003a600a87b2ff9ab07"
+    },
+    "sl_SL/package-info.xml": {
+      "last_commit_epoch": 1788967862,
+      "sha256": "12e342710ba94d2067629045e9ed5b78fa3f4713150281aa01be9b905ee64f72"
+    },
+    "sl_SL/sl_SL.aff": {
+      "last_commit_epoch": 1788967862,
+      "sha256": "3cb3e84824959928c8004e07b37b9d2bcb84176095f514e134f006dbb14a0beb"
+    },
+    "sl_SL/sl_SL.dic": {
+      "last_commit_epoch": 1788967862,
+      "sha256": "e157aabf1a20d21f639d04cf79f019ff1a3eb623c6780a726ffa4293787fa0ab"
+    },
+    "sv_SE/LICENSE_sv_SE.txt": {
+      "last_commit_epoch": 1788967862,
+      "sha256": "9446a452fbb4919afd8f26dad8d1af1c4664f309bb404197ff9b9c1122a96e6d"
+    },
+    "sv_SE/package-info.xml": {
+      "last_commit_epoch": 1788967862,
+      "sha256": "d44321d902b62342136b0630ea6d0e092da14115a7028e827a8133ec80ae95d0"
+    },
+    "sv_SE/sv_SE.aff": {
+      "last_commit_epoch": 1788967862,
+      "sha256": "b721c9d44bee912feb182b601a1bc2ae3e7dffef660f4130cf2751867488a9dd"
+    },
+    "sv_SE/sv_SE.dic": {
+      "last_commit_epoch": 1788967862,
+      "sha256": "8bf485a6b0be30bd901d7acbdc1a8ee9c70471885b476f2e42eeba6fe2959bee"
+    },
+    "tk_TM/package-info.xml": {
+      "last_commit_epoch": 1788967862,
+      "sha256": "c30703f913e510cea486b8acfd6b6017e9118b1b2a768e8fdb44810ad5fa9ca8"
+    },
+    "tk_TM/tk_TM.aff": {
+      "last_commit_epoch": 1788967862,
+      "sha256": "d226243585486025f7948c4c88620d1a32ad52f5b531bffccb3080142ac4c87d"
+    },
+    "tk_TM/tk_TM.dic": {
+      "last_commit_epoch": 1788967862,
+      "sha256": "d9b37c30808be3d102f223a5f96b5bf2b74e764c23c9215e67db02f0b9ccbd2d"
+    },
+    "tr_TR/package-info.xml": {
+      "last_commit_epoch": 1788967862,
+      "sha256": "94a03ddb78aaa9465f423de46b20102225dc3c71696027ff98e740f5e0aca9e5"
+    },
+    "tr_TR/tr_TR.aff": {
+      "last_commit_epoch": 1788967862,
+      "sha256": "220274010b4e8eca972c34dc3cf47e63d84b6defa200a292dadc38f49dc4cd73"
+    },
+    "tr_TR/tr_TR.dic": {
+      "last_commit_epoch": 1788967862,
+      "sha256": "02bd6d708fb745b8d85407f6840c9f091bcaa76ccd35041752d2a95b18b2c0d8"
+    },
+    "uk_UA/README_uk_UA.txt": {
+      "last_commit_epoch": 1788967862,
+      "sha256": "dc5f4c14b0996146f8b1b1524d429434e1a3e8f9aff082e6edec68e45685ca12"
+    },
+    "uk_UA/package-info.xml": {
+      "last_commit_epoch": 1788967862,
+      "sha256": "ac96dff11cbb412e11b73adb325d753e50b351140987fcf46c173414dd15329d"
+    },
+    "uk_UA/uk_UA.aff": {
+      "last_commit_epoch": 1788967862,
+      "sha256": "1c5fa89d25eba86364ebb36f6c9ede8af1e31d1ec9236cb4f88794fdbf08093e"
+    },
+    "uk_UA/uk_UA.dic": {
+      "last_commit_epoch": 1788967862,
+      "sha256": "bfdd6c046842694e6ea814de98f0a8ab297f82bb7d8088c8acc55f356b7540bc"
+    }
+  },
+  "schema": 1,
+  "source": {
+    "repository": "hippoedit/website",
+    "root": "download/dictionaries",
+    "sha": "80626fe5cc008c2e5dbd856024ccbe1cef75f8aa"
+  }
+}

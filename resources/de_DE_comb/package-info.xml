@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<!DOCTYPE package-info SYSTEM "http://www.hippoedit.com/xml/package-info">
+<package-info xmlns="http://www.hippoedit.com/xml/package-info" xmlns:smf="http://www.hippoedit.com/">
+	<id>dict-de-de</id>
+	<name>Deutsch (Deutschland)</name>	
+	<version>1.0.0.0</version>
+	<description>German dictionary contains German words for old and new spelling</description>
+	<author>Lantol</author>
+	<email>lantol46@yahoo.de</email>
+	<homepage>http://wiki.hippoedit.com/dictionary/de-de</homepage>
+	<locale>de_DE</locale>
+	<memo></memo>
+
+	<!-- Common Install actions -->
+	<install>
+		<!-- Read me -->
+		<readme type="inline">This will install German (combined) dictionary for HippoEDIT.</readme>
+
+		<require-file name="de_DE_comb.aff" destination="%{dictionaries}%/de_DE_comb.aff" />
+		<require-file name="de_DE_comb.dic" destination="%{dictionaries}%/de_DE_comb.dic" />
+		<require-file name="README_de_DE_comb.txt" destination="%{dictionaries}%/README_de_DE_comb.txt" />
+
+	</install>
+
+	<!-- Uninstall actions -->
+	<uninstall>
+		<!-- Read me -->
+		<readme type="inline">This will uninstall German (combined) dictionary for HippoEDIT.</readme>
+
+		<!-- Source files -->
+		<remove-file name="%{dictionaries}%/de_DE_comb.aff" />
+		<remove-file name="%{dictionaries}%/de_DE_comb.dic" />
+		<remove-file name="%{dictionaries}%/README_de_DE_comb.txt" />
+
+	</uninstall>
+
+</package-info>

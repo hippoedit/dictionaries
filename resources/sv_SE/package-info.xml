@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<!DOCTYPE package-info SYSTEM "http://www.hippoedit.com/xml/package-info">
+<package-info xmlns="http://www.hippoedit.com/xml/package-info" xmlns:smf="http://www.hippoedit.com/">
+	<id>dict-sv-se</id>
+	<name>Swedish</name>	
+	<version>1.0.0.0</version>
+	<description>Swedish spell checker dictionary</description>
+	<author>Göran Andersson</author>
+	<email>goran@init.se</email>
+	<homepage>http://wiki.hippoedit.com/dictionary/sv-se</homepage>
+	<locale>sv_SE</locale>
+	<memo></memo>
+
+	<!-- Common Install actions -->
+	<install>
+		<!-- Read me -->
+		<readme type="inline">This will install Swedish spell checker dictionary for HippoEDIT.</readme>
+
+		<require-file name="sv_SE.aff" destination="%{dictionaries}%/sv_SE.aff" />
+		<require-file name="sv_SE.dic" destination="%{dictionaries}%/sv_SE.dic" />
+		<require-file name="LICENSE_sv_SE.txt" destination="%{dictionaries}%/LICENSE_sv_SE.txt" />
+
+	</install>
+
+	<!-- Uninstall actions -->
+	<uninstall>
+		<!-- Read me -->
+		<readme type="inline">This will uninstall Swedish spell checker dictionary for HippoEDIT.</readme>
+
+		<!-- Source files -->
+		<remove-file name="%{dictionaries}%/sv_SE.aff" />
+		<remove-file name="%{dictionaries}%/sv_SE.dic" />
+		<remove-file name="%{dictionaries}%/LICENSE_sv_SE.txt" />
+
+	</uninstall>
+
+</package-info>

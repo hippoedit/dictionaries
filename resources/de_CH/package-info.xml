@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<!DOCTYPE package-info SYSTEM "http://www.hippoedit.com/xml/package-info">
+<package-info xmlns="http://www.hippoedit.com/xml/package-info" xmlns:smf="http://www.hippoedit.com/">
+	<id>dict-de-ch</id>
+	<name>Deutsch (Switzerland)</name>	
+	<version>1.0.0.0</version>
+	<description>German dictionary for Switzerland</description>
+	<author>Franz Michael Baumann</author>
+	<email>frami.baumann@web.de</email>
+	<homepage>http://wiki.hippoedit.com/dictionary/de-ch</homepage>
+	<locale>de_CH</locale>
+	<memo></memo>
+
+	<!-- Common Install actions -->
+	<install>
+		<!-- Read me -->
+		<readme type="inline">This will install German (Switzerland) dictionary for HippoEDIT.</readme>
+
+		<require-file name="de_CH_frami.aff" destination="%{dictionaries}%/de_CH_frami.aff" />
+		<require-file name="de_CH_frami.dic" destination="%{dictionaries}%/de_CH_frami.dic" />
+		<require-file name="README_de_CH_frami.txt" destination="%{dictionaries}%/README_de_CH_frami.txt" />
+
+	</install>
+
+	<!-- Uninstall actions -->
+	<uninstall>
+		<!-- Read me -->
+		<readme type="inline">This will uninstall German (Switzerland) dictionary for HippoEDIT.</readme>
+
+		<!-- Source files -->
+		<remove-file name="%{dictionaries}%/de_CH_frami.aff" />
+		<remove-file name="%{dictionaries}%/de_CH_frami.dic" />
+		<remove-file name="%{dictionaries}%/README_de_CH_frami.txt" />
+
+	</uninstall>
+
+</package-info>

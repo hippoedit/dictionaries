@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<!DOCTYPE package-info SYSTEM "http://www.hippoedit.com/xml/package-info">
+<package-info xmlns="http://www.hippoedit.com/xml/package-info" xmlns:smf="http://www.hippoedit.com/">
+	<id>dict-ro-ro</id>
+	<name>Romanian</name>	
+	<version>1.14</version>
+	<description>Romanian spelling dictionary. This package includes standard and classic Romanian dictionaries, in both commabelow and cedila formats</description>
+	<author>Ionuț Păduraru and Lucian Constantin</author>
+	<email>ro-RO@www.archeus.ro</email>
+	<homepage>http://wiki.hippoedit.com/dictionary/ro-ro</homepage>
+	<locale>ro_RO</locale>
+	<memo></memo>
+
+	<!-- Common Install actions -->
+	<install>
+		<!-- Read me -->
+		<readme type="inline">This will install Romanian spell checker dictionary for HippoEDIT.</readme>
+
+		<require-file name="ro_RO.aff" destination="%{dictionaries}%/ro_RO.aff" />
+		<require-file name="ro_RO.dic" destination="%{dictionaries}%/ro_RO.dic" />
+
+	</install>
+
+	<!-- Uninstall actions -->
+	<uninstall>
+		<!-- Read me -->
+		<readme type="inline">This will uninstall Romanian spell checker dictionary for HippoEDIT.</readme>
+
+		<!-- Source files -->
+		<remove-file name="%{dictionaries}%/ro_RO.aff" />
+		<remove-file name="%{dictionaries}%/ro_RO.dic" />
+
+	</uninstall>
+
+</package-info>

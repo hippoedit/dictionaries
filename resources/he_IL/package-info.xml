@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<!DOCTYPE package-info SYSTEM "http://www.hippoedit.com/xml/package-info">
+<package-info xmlns="http://www.hippoedit.com/xml/package-info" xmlns:smf="http://www.hippoedit.com/">
+	<id>dict-he-il</id>
+	<name>Hebrew</name>	
+	<version>1.0.0.0</version>
+	<description>Hebrew spell checker dictionary</description>
+	<author>Nadav Har'El, Dan Kenigsberg</author>
+	<email>nyh@math.technion.ac.il</email>
+	<homepage>http://wiki.hippoedit.com/dictionary/he-il</homepage>
+	<locale>he_IL</locale>
+	<memo></memo>
+
+	<!-- Common Install actions -->
+	<install>
+		<!-- Read me -->
+		<readme type="inline">This will install Hebrew spell checker dictionary for HippoEDIT.</readme>
+
+		<require-file name="he_IL.aff" destination="%{dictionaries}%/he_IL.aff" />
+		<require-file name="he_IL.dic" destination="%{dictionaries}%/he_IL.dic" />
+		<require-file name="README_he_IL.txt" destination="%{dictionaries}%/README_he_IL.txt" />
+
+	</install>
+
+	<!-- Uninstall actions -->
+	<uninstall>
+		<!-- Read me -->
+		<readme type="inline">This will uninstall Hebrew spell checker dictionary for HippoEDIT.</readme>
+
+		<!-- Source files -->
+		<remove-file name="%{dictionaries}%/he_IL.aff" />
+		<remove-file name="%{dictionaries}%/he_IL.dic" />
+		<remove-file name="%{dictionaries}%/README_he_IL.txt" />
+
+	</uninstall>
+
+</package-info>

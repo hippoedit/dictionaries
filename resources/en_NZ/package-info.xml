@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<!DOCTYPE package-info SYSTEM "http://www.hippoedit.com/xml/package-info">
+<package-info xmlns="http://www.hippoedit.com/xml/package-info" xmlns:smf="http://www.hippoedit.com/">
+	<id>dict-en-nz</id>
+	<name>English (New Zealand)</name>	
+	<version>1.0.1.1</version>
+	<description>New Zealand English Dictionary</description>
+	<author>Tristan Burtenshaw</author>
+	<email>hooty@slingshot.co.nz</email>
+	<homepage>http://wiki.hippoedit.com/dictionary/en-nz</homepage>
+	<locale>en_NZ</locale>
+	<memo></memo>
+
+	<!-- Common Install actions -->
+	<install>
+		<!-- Read me -->
+		<readme type="inline">This will install English (New Zealand) dictionary for HippoEDIT.</readme>
+
+		<require-file name="en_NZ.aff" destination="%{dictionaries}%/en_NZ.aff" />
+		<require-file name="en_NZ.dic" destination="%{dictionaries}%/en_NZ.dic" />
+		<require-file name="README_en_NZ.txt" destination="%{dictionaries}%/README_en_NZ.txt" />
+
+	</install>
+
+	<!-- Uninstall actions -->
+	<uninstall>
+		<!-- Read me -->
+		<readme type="inline">This will uninstall English (New Zealand) dictionary for HippoEDIT.</readme>
+
+		<!-- Source files -->
+		<remove-file name="%{dictionaries}%/en_NZ.aff" />
+		<remove-file name="%{dictionaries}%/en_NZ.dic" />
+		<remove-file name="%{dictionaries}%/README_en_NZ.txt" />
+
+	</uninstall>
+
+</package-info>

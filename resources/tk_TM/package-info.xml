@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<!DOCTYPE package-info SYSTEM "http://www.hippoedit.com/xml/package-info">
+<package-info xmlns="http://www.hippoedit.com/xml/package-info" xmlns:smf="http://www.hippoedit.com/">
+	<id>dict-tk-tm</id>
+	<name>Turkmen</name>	
+	<version>0.1.6</version>
+	<description>Turkmen spell checker dictionary</description>
+	<author>Nazar Annagurban</author>
+	<email>supportbox@hippoedit.com</email>
+	<homepage>http://wiki.hippoedit.com/dictionary/tk-tm</homepage>
+	<locale>tk_TM</locale>
+	<memo></memo>
+
+	<!-- Common Install actions -->
+	<install>
+		<!-- Read me -->
+		<readme type="inline">This will install Turkmen spell checker dictionary for HippoEDIT.</readme>
+
+		<require-file name="tk_TM.aff" destination="%{dictionaries}%/tk_TM.aff" />
+		<require-file name="tk_TM.dic" destination="%{dictionaries}%/tk_TM.dic" />
+
+	</install>
+
+	<!-- Uninstall actions -->
+	<uninstall>
+		<!-- Read me -->
+		<readme type="inline">This will uninstall Turkmen spell checker dictionary for HippoEDIT.</readme>
+
+		<!-- Source files -->
+		<remove-file name="%{dictionaries}%/tk_TM.aff" />
+		<remove-file name="%{dictionaries}%/tk_TM.dic" />
+
+	</uninstall>
+
+</package-info>

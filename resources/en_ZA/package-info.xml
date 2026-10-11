@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<!DOCTYPE package-info SYSTEM "http://www.hippoedit.com/xml/package-info">
+<package-info xmlns="http://www.hippoedit.com/xml/package-info" xmlns:smf="http://www.hippoedit.com/">
+	<id>dict-en-za</id>
+	<name>English (South African)</name>	
+	<version>1.0.0.0</version>
+	<description>English (South African) dictionary</description>
+	<author>David Bartlett and Andrew Brown</author>
+	<email>dwb@openoffice.org</email>
+	<homepage>http://wiki.hippoedit.com/dictionary/english-za</homepage>
+	<locale>en_ZA</locale>
+	<memo></memo>
+
+	<!-- Common Install actions -->
+	<install>
+		<!-- Read me -->
+		<readme type="inline">This will install English (South African) dictionary for HippoEDIT.</readme>
+
+		<require-file name="en_ZA.aff" destination="%{dictionaries}%/en_ZA.aff" />
+		<require-file name="en_ZA.dic" destination="%{dictionaries}%/en_ZA.dic" />
+		<require-file name="README_en_ZA.txt" destination="%{dictionaries}%/README_en_ZA.txt" />
+
+	</install>
+
+	<!-- Uninstall actions -->
+	<uninstall>
+		<!-- Read me -->
+		<readme type="inline">This will uninstall English (South African) dictionary for HippoEDIT.</readme>
+
+		<!-- Source files -->
+		<remove-file name="%{dictionaries}%/en_ZA.aff" />
+		<remove-file name="%{dictionaries}%/en_ZA.dic" />
+		<remove-file name="%{dictionaries}%/README_en_ZA.txt" />
+
+	</uninstall>
+
+</package-info>

@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<!DOCTYPE package-info SYSTEM "http://www.hippoedit.com/xml/package-info">
+<package-info xmlns="http://www.hippoedit.com/xml/package-info" xmlns:smf="http://www.hippoedit.com/">
+	<id>dict-lt-lt</id>
+	<name>Lithuanian</name>	
+	<version>1.3.1</version>
+	<description>Lietuvių kalbos rašybos tikrinimo žodynas</description>
+	<author>Albertas Agejevas, Aurimas Mikalauskas, Dalius Tarvydas, Eduardas Kriščiūnas...</author>
+	<email>supportbox@hippoedit.com</email>
+	<homepage>http://wiki.hippoedit.com/dictionary/lt-lt</homepage>
+	<locale>lt_LT</locale>
+	<memo></memo>
+
+	<!-- Common Install actions -->
+	<install>
+		<!-- Read me -->
+		<readme type="inline">This will install Lithuanian dictionary for HippoEDIT.</readme>
+
+		<require-file name="lt_LT.aff" destination="%{dictionaries}%/lt_LT.aff" />
+		<require-file name="lt_LT.dic" destination="%{dictionaries}%/lt_LT.dic" />
+		<require-file name="README_lt_LT.txt" destination="%{dictionaries}%/README_lt_LT.txt" />
+
+	</install>
+
+	<!-- Uninstall actions -->
+	<uninstall>
+		<!-- Read me -->
+		<readme type="inline">This will uninstall Lithuanian dictionary for HippoEDIT.</readme>
+
+		<!-- Source files -->
+		<remove-file name="%{dictionaries}%/lt_LT.aff" />
+		<remove-file name="%{dictionaries}%/lt_LT.dic" />
+		<remove-file name="%{dictionaries}%/README_lt_LT.txt" />
+
+	</uninstall>
+
+</package-info>

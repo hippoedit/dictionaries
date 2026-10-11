@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<!DOCTYPE package-info SYSTEM "http://www.hippoedit.com/xml/package-info">
+<package-info xmlns="http://www.hippoedit.com/xml/package-info" xmlns:smf="http://www.hippoedit.com/">
+	<id>dict-ar-ar</id>
+	<name>Arabic</name>	
+	<version>3.2.20120321</version>
+	<description>Arabic spell-checking dictionary</description>
+	<author>Mohamed Kebdani and Taha Zerrouki, Dan Kenigsberg</author>
+	<email>ethanb@google.com</email>
+	<homepage>http://wiki.hippoedit.com/dictionary/ar-ar</homepage>
+	<locale>ar_AR</locale>
+	<memo></memo>
+
+	<!-- Common Install actions -->
+	<install>
+		<!-- Read me -->
+		<readme type="inline">This will install Arabic spell-checking dictionary for HippoEDIT.</readme>
+
+		<require-file name="ar_AR.aff" destination="%{dictionaries}%/ar_AR.aff" />
+		<require-file name="ar_AR.dic" destination="%{dictionaries}%/ar_AR.dic" />
+		<require-file name="license_ar_AR.txt" destination="%{dictionaries}%/license_ar_AR.txt" />
+		<require-file name="copyright_ar_AR.txt" destination="%{dictionaries}%/copyright_ar_AR.txt" />
+	</install>
+
+	<!-- Uninstall actions -->
+	<uninstall>
+		<!-- Read me -->
+		<readme type="inline">This will uninstall Arabic spell-checking dictionary for HippoEDIT.</readme>
+
+		<!-- Source files -->
+		<remove-file name="%{dictionaries}%/ar_AR.aff" />
+		<remove-file name="%{dictionaries}%/ar_AR.dic" />
+		<remove-file name="%{dictionaries}%/license_ar_AR.txt" />
+		<remove-file name="%{dictionaries}%/copyright_ar_AR.txt" />
+
+	</uninstall>
+
+</package-info>

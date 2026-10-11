@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<!DOCTYPE package-info SYSTEM "http://www.hippoedit.com/xml/package-info">
+<package-info xmlns="http://www.hippoedit.com/xml/package-info" xmlns:smf="http://www.hippoedit.com/">
+	<id>dict-da-dk</id>
+	<name>Danish</name>	
+	<version>1.1.0.0</version>
+	<description>Danish dictionary</description>
+	<author>Det Danske Sprog</author>
+	<email>supportbox@hippoedit.com</email>
+	<homepage>http://wiki.hippoedit.com/dictionary/da-dk</homepage>
+	<locale>da_DK</locale>
+	<memo></memo>
+
+	<!-- Common Install actions -->
+	<install>
+		<!-- Read me -->
+		<readme type="inline">This will install Danish dictionary for HippoEDIT.</readme>
+
+		<require-file name="da_DK.aff" destination="%{dictionaries}%/da_DK.aff" />
+		<require-file name="da_DK.dic" destination="%{dictionaries}%/da_DK.dic" />
+		<require-file name="README_da_DK.txt" destination="%{dictionaries}%/README_da_DK.txt" />
+
+	</install>
+
+	<!-- Uninstall actions -->
+	<uninstall>
+		<!-- Read me -->
+		<readme type="inline">This will uninstall Danish dictionary for HippoEDIT.</readme>
+
+		<!-- Source files -->
+		<remove-file name="%{dictionaries}%/da_DK.aff" />
+		<remove-file name="%{dictionaries}%/da_DK.dic" />
+		<remove-file name="%{dictionaries}%/README_da_DK.txt" />
+
+	</uninstall>
+
+</package-info>

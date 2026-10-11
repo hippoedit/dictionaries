@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<!DOCTYPE package-info SYSTEM "http://www.hippoedit.com/xml/package-info">
+<package-info xmlns="http://www.hippoedit.com/xml/package-info" xmlns:smf="http://www.hippoedit.com/">
+	<id>dict-sk-sk</id>
+	<name>Slovak</name>	
+	<version>2.04.1</version>
+	<description>Umožňuje kontrolu preklepov pre slovenské texty (písaných bez alebo s diakritikou)</description>
+	<author>Zdenko Podobný</author>
+	<email>supportbox@hippoedit.com</email>
+	<homepage>http://wiki.hippoedit.com/dictionary/sk-sk</homepage>
+	<locale>sk_SK</locale>
+	<memo></memo>
+
+	<!-- Common Install actions -->
+	<install>
+		<!-- Read me -->
+		<readme type="inline">This will install Slovak dictionary for HippoEDIT.</readme>
+
+		<require-file name="sk_SK.aff" destination="%{dictionaries}%/sk_SK.aff" />
+		<require-file name="sk_SK.dic" destination="%{dictionaries}%/sk_SK.dic" />
+		<require-file name="README_sk_SK.txt" destination="%{dictionaries}%/README_sk_SK.txt" />
+
+	</install>
+
+	<!-- Uninstall actions -->
+	<uninstall>
+		<!-- Read me -->
+		<readme type="inline">This will uninstall Slovak dictionary for HippoEDIT.</readme>
+
+		<!-- Source files -->
+		<remove-file name="%{dictionaries}%/sk_SK.aff" />
+		<remove-file name="%{dictionaries}%/sk_SK.dic" />
+		<remove-file name="%{dictionaries}%/README_sk_SK.txt" />
+
+	</uninstall>
+
+</package-info>

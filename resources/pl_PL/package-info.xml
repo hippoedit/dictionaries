@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<!DOCTYPE package-info SYSTEM "http://www.hippoedit.com/xml/package-info">
+<package-info xmlns="http://www.hippoedit.com/xml/package-info" xmlns:smf="http://www.hippoedit.com/">
+	<id>dict-pl-pl</id>
+	<name>Polski</name>	
+	<version>1.0.20160228</version>
+	<description>Polski (pl) słownik poprawnej pisowni</description>
+	<author>Leszek(teo)Życzkowski, Marek Stępień, Zespół SJP.pl</author>
+	<email></email>
+	<homepage>http://wiki.hippoedit.com/dictionary/pl-pl</homepage>
+	<locale>pl_PL</locale>
+	<memo></memo>
+
+	<!-- Common Install actions -->
+	<install>
+		<!-- Read me -->
+		<readme type="inline">This will install Polish spell checker dictionary for HippoEDIT.</readme>
+
+		<require-file name="pl_PL.aff" destination="%{dictionaries}%/pl_PL.aff" />
+		<require-file name="pl_PL.dic" destination="%{dictionaries}%/pl_PL.dic" />
+
+	</install>
+
+	<!-- Uninstall actions -->
+	<uninstall>
+		<!-- Read me -->
+		<readme type="inline">This will uninstall Polish spell checker dictionary for HippoEDIT.</readme>
+
+		<!-- Source files -->
+		<remove-file name="%{dictionaries}%/pl_PL.aff" />
+		<remove-file name="%{dictionaries}%/pl_PL.dic" />
+
+	</uninstall>
+
+</package-info>

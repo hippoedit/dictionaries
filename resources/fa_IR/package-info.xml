@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<!DOCTYPE package-info SYSTEM "http://www.hippoedit.com/xml/package-info">
+<package-info xmlns="http://www.hippoedit.com/xml/package-info" xmlns:smf="http://www.hippoedit.com/">
+	<id>dict-fa-ir</id>
+	<name>Persian</name>	
+	<version>1.2.2</version>
+	<description>Persian Dictionary</description>
+	<author>Bahram Maravandi</author>
+	<email>supportbox@hippoedit.com</email>
+	<homepage>http://wiki.hippoedit.com/dictionary/fa-ir</homepage>
+	<locale>fa_IR</locale>
+
+	<!-- Common Install actions -->
+	<install>
+		<!-- Read me -->
+		<readme type="inline">This will install Persian spell checker dictionary for HippoEDIT.</readme>
+
+		<require-file name="fa_IR.aff" destination="%{dictionaries}%/fa_IR.aff" />
+		<require-file name="fa_IR.dic" destination="%{dictionaries}%/fa_IR.dic" />
+
+	</install>
+
+	<!-- Uninstall actions -->
+	<uninstall>
+		<!-- Read me -->
+		<readme type="inline">This will uninstall Persian spell checker dictionary for HippoEDIT.</readme>
+
+		<!-- Source files -->
+		<remove-file name="%{dictionaries}%/fa_IR.aff" />
+		<remove-file name="%{dictionaries}%/fa_IR.dic" />
+
+	</uninstall>
+
+</package-info>

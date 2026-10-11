@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<!DOCTYPE package-info SYSTEM "http://www.hippoedit.com/xml/package-info">
+<package-info xmlns="http://www.hippoedit.com/xml/package-info" xmlns:smf="http://www.hippoedit.com/">
+	<id>dict-mk-mk-cyrl</id>
+	<name>Macedonian (Cyrillic)</name>	
+	<version>1.2.1</version>
+	<description>Македонски правопис (кирилица)</description>
+	<author>Steve Stojanoski</author>
+	<email>supportbox@hippoedit.com</email>
+	<homepage>http://wiki.hippoedit.com/dictionary/mk-mk-cyrl</homepage>
+	<locale>mk_MK</locale>
+	<memo></memo>
+
+	<!-- Common Install actions -->
+	<install>
+		<!-- Read me -->
+		<readme type="inline">This will install Macedonian (Cyrillic) dictionary for HippoEDIT.</readme>
+
+		<require-file name="mk_MK_Cyrl.aff" destination="%{dictionaries}%/mk_MK_Cyrl.aff" />
+		<require-file name="mk_MK_Cyrl.dic" destination="%{dictionaries}%/mk_MK_Cyrl.dic" />
+		<require-file name="README_mk_MK_Cyrl.txt" destination="%{dictionaries}%/README_mk_MK_Cyrl.txt" />
+
+	</install>
+
+	<!-- Uninstall actions -->
+	<uninstall>
+		<!-- Read me -->
+		<readme type="inline">This will uninstall Macedonian (Cyrillic) dictionary for HippoEDIT.</readme>
+
+		<!-- Source files -->
+		<remove-file name="%{dictionaries}%/mk_MK_Cyrl.aff" />
+		<remove-file name="%{dictionaries}%/mk_MK_Cyrl.dic" />
+		<remove-file name="%{dictionaries}%/README_mk_MK_Cyrl.txt" />
+
+	</uninstall>
+
+</package-info>

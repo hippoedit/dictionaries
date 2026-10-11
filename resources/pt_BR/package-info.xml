@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<!DOCTYPE package-info SYSTEM "http://www.hippoedit.com/xml/package-info">
+<package-info xmlns="http://www.hippoedit.com/xml/package-info" xmlns:smf="http://www.hippoedit.com/">
+	<id>dict-pt-br</id>
+	<name>Portugal (Brazil)</name>	
+	<version>1.0.0.0</version>
+	<description>Portugal (Brazil) spell checker dictionary</description>
+	<author>Raimundo Moura</author>
+	<email>raimundo.smoura@gmail.com</email>
+	<homepage>http://wiki.hippoedit.com/dictionary/pt-br</homepage>
+	<locale>pt_BR</locale>
+	<memo></memo>
+
+	<!-- Common Install actions -->
+	<install>
+		<!-- Read me -->
+		<readme type="inline">This will install Portugal (Brazil) spell checker dictionary for HippoEDIT.</readme>
+
+		<require-file name="pt_BR.aff" destination="%{dictionaries}%/pt_BR.aff" />
+		<require-file name="pt_BR.dic" destination="%{dictionaries}%/pt_BR.dic" />
+		<require-file name="README_pt_BR.txt" destination="%{dictionaries}%/README_pt_BR.txt" />
+
+	</install>
+
+	<!-- Uninstall actions -->
+	<uninstall>
+		<!-- Read me -->
+		<readme type="inline">This will uninstall Portugal (Brazil) spell checker dictionary for HippoEDIT.</readme>
+
+		<!-- Source files -->
+		<remove-file name="%{dictionaries}%/pt_BR.aff" />
+		<remove-file name="%{dictionaries}%/pt_BR.dic" />
+		<remove-file name="%{dictionaries}%/README_pt_BR.txt" />
+
+	</uninstall>
+
+</package-info>
